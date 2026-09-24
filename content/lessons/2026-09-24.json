@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-24",
+  "slug": "when-communication-feels-difficult",
+  "theme": "人际关系与心理",
+  "title": "When Communication Feels Difficult",
+  "subtitle": "在难以沟通的时刻，用更准确的英语理解情绪、边界与冲突。",
+  "level": "B2–C1",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {"term": "emotional bandwidth", "part": "n.", "meaning": "情绪容量；处理情绪或压力的精力", "example": "I don’t have the emotional bandwidth for a serious talk tonight."},
+        {"term": "set boundaries", "part": "v. phr.", "meaning": "设定界限；明确自己能接受和不能接受的事", "example": "Setting boundaries can protect a healthy relationship."},
+        {"term": "validate", "part": "v.", "meaning": "认可某人的感受或经历是合理、真实的", "example": "You can validate her feelings without agreeing with her decision."},
+        {"term": "misinterpret", "part": "v.", "meaning": "误解；错误理解某人的话或意图", "example": "He misinterpreted my silence as anger."},
+        {"term": "underlying issue", "part": "n. phr.", "meaning": "潜在问题；表面冲突背后的真正原因", "example": "The missed call was not the underlying issue."},
+        {"term": "reciprocal", "part": "adj.", "meaning": "相互的；双方都有付出或回应的", "example": "Trust grows when respect is reciprocal."},
+        {"term": "de-escalate", "part": "v.", "meaning": "缓和；降低冲突或紧张局势的强度", "example": "A calm question can help de-escalate an argument."}
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文",
+      "heading": "When Communication Feels Difficult",
+      "paragraphs": [
+        "Communication often becomes difficult not because people do not care, but because they are tired, defensive, or afraid of being misunderstood. A short reply may be misinterpreted as coldness, while silence may look like rejection. Before reacting, it helps to ask what the other person meant rather than assuming the worst.",
+        "When someone is upset, trying to solve the problem immediately is not always helpful. First, validate the feeling: “I can see why that hurt you.” Validation does not mean that you agree with every conclusion. It simply shows that you are listening and that the other person’s experience matters.",
+        "Healthy communication also requires boundaries. If you lack the emotional bandwidth to continue, you can say, “I want to discuss this, but I need twenty minutes to calm down.” Respecting that boundary gives both people space to think. A pause should not be used as punishment; it should be a clear, respectful step toward returning to the conversation.",
+        "Finally, focus on the underlying issue and use language that de-escalates the conflict. Instead of blaming—“You never listen”—try describing your experience: “I felt ignored when I was interrupted.” Good communication is reciprocal: both people listen, clarify, and take responsibility. The goal is not to win, but to understand each other well enough to move forward."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar & Patterns",
+      "title": "语法与句型",
+      "items": [
+        {"pattern": "It is not that A, but that B.", "explanation": "不是因为 A，而是因为 B。用于纠正常见误解，并指出更准确的原因。A、B 后通常接完整从句。", "example": "It is not that she does not care, but that she needs time to process her feelings."},
+        {"pattern": "Instead of + doing..., try + doing...", "explanation": "与其做……，不如试着做……。instead of 和 try 后都使用动名词，适合提出温和、具体的替代方案。", "example": "Instead of assuming the worst, try asking a calm question."}
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Quick Practice",
+      "title": "快速练习",
+      "items": [
+        {"kind": "填空", "question": "A calm tone can help ______ an argument before it becomes worse."},
+        {"kind": "改写", "question": "用 Instead of + doing..., try + doing... 改写：Do not blame the other person. Ask what they meant."},
+        {"kind": "理解", "question": "According to the passage, why is validating someone’s feelings different from agreeing with every conclusion?"}
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Check Your Work",
+      "title": "答案",
+      "summary": "查看三题答案",
+      "items": [
+        "de-escalate",
+        "Instead of blaming the other person, try asking what they meant.",
+        "Because validation recognizes that the other person’s feelings and experience are real and matter; it does not mean accepting every interpretation or decision as correct."
+      ]
+    }
+  ]
+}
