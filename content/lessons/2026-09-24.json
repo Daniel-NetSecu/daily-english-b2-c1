@@ -1,9 +1,9 @@
 {
   "date": "2026-09-24",
-  "slug": "when-communication-feels-difficult",
+  "slug": "the-anatomy-of-a-sincere-apology",
   "theme": "人际关系与心理",
-  "title": "When Communication Feels Difficult",
-  "subtitle": "在难以沟通的时刻，用更准确的英语理解情绪、边界与冲突。",
+  "title": "The Anatomy of a Sincere Apology",
+  "subtitle": "用准确、真诚的英语承认伤害、承担责任，并修复关系。",
   "level": "B2–C1",
   "duration": "约 10 分钟",
   "sections": [
@@ -12,25 +12,25 @@
       "label": "Vocabulary",
       "title": "生词和重点词语",
       "items": [
-        {"term": "emotional bandwidth", "part": "n.", "meaning": "情绪容量；处理情绪或压力的精力", "example": "I don’t have the emotional bandwidth for a serious talk tonight."},
-        {"term": "set boundaries", "part": "v. phr.", "meaning": "设定界限；明确自己能接受和不能接受的事", "example": "Setting boundaries can protect a healthy relationship."},
-        {"term": "validate", "part": "v.", "meaning": "认可某人的感受或经历是合理、真实的", "example": "You can validate her feelings without agreeing with her decision."},
-        {"term": "misinterpret", "part": "v.", "meaning": "误解；错误理解某人的话或意图", "example": "He misinterpreted my silence as anger."},
-        {"term": "underlying issue", "part": "n. phr.", "meaning": "潜在问题；表面冲突背后的真正原因", "example": "The missed call was not the underlying issue."},
-        {"term": "reciprocal", "part": "adj.", "meaning": "相互的；双方都有付出或回应的", "example": "Trust grows when respect is reciprocal."},
-        {"term": "de-escalate", "part": "v.", "meaning": "缓和；降低冲突或紧张局势的强度", "example": "A calm question can help de-escalate an argument."}
+        {"term": "acknowledge", "part": "v.", "meaning": "承认；正视（事实、感受或影响）", "example": "A sincere apology begins by acknowledging the harm you caused."},
+        {"term": "take responsibility", "part": "v. phr.", "meaning": "承担责任", "example": "She took responsibility for speaking carelessly."},
+        {"term": "make amends", "part": "v. phr.", "meaning": "弥补过错；作出补偿", "example": "He offered to make amends by replacing the damaged book."},
+        {"term": "defensive", "part": "adj.", "meaning": "戒备的；为自己辩解的", "example": "Try not to become defensive when someone explains why they were hurt."},
+        {"term": "dismissive", "part": "adj.", "meaning": "轻视的；不予理会的", "example": "Saying “It was no big deal” can sound dismissive."},
+        {"term": "accountability", "part": "n.", "meaning": "担当；对自己的行为负责", "example": "Trust is easier to rebuild when an apology shows real accountability."},
+        {"term": "rebuild trust", "part": "v. phr.", "meaning": "重建信任", "example": "Consistent actions are necessary to rebuild trust after a broken promise."}
       ]
     },
     {
       "type": "reading",
       "label": "Reading",
       "title": "英语短文",
-      "heading": "When Communication Feels Difficult",
+      "heading": "More Than Saying Sorry",
       "paragraphs": [
-        "Communication often becomes difficult not because people do not care, but because they are tired, defensive, or afraid of being misunderstood. A short reply may be misinterpreted as coldness, while silence may look like rejection. Before reacting, it helps to ask what the other person meant rather than assuming the worst.",
-        "When someone is upset, trying to solve the problem immediately is not always helpful. First, validate the feeling: “I can see why that hurt you.” Validation does not mean that you agree with every conclusion. It simply shows that you are listening and that the other person’s experience matters.",
-        "Healthy communication also requires boundaries. If you lack the emotional bandwidth to continue, you can say, “I want to discuss this, but I need twenty minutes to calm down.” Respecting that boundary gives both people space to think. A pause should not be used as punishment; it should be a clear, respectful step toward returning to the conversation.",
-        "Finally, focus on the underlying issue and use language that de-escalates the conflict. Instead of blaming—“You never listen”—try describing your experience: “I felt ignored when I was interrupted.” Good communication is reciprocal: both people listen, clarify, and take responsibility. The goal is not to win, but to understand each other well enough to move forward."
+        "A good apology is not a performance designed to end an uncomfortable conversation. It is a way of showing that you understand another person’s experience. Saying “I’m sorry you feel that way” often fails because it focuses on the listener’s reaction rather than the speaker’s behavior. A sincere apology names the action and acknowledges its impact: “I’m sorry I interrupted you repeatedly. That was disrespectful.”",
+        "The next step is accountability. Explanations may provide context, but they should not become excuses. Compare “I was stressed, so I snapped at you” with “I was stressed, but that did not justify snapping at you.” The second sentence accepts responsibility while still explaining what happened. It also avoids becoming defensive or dismissive.",
+        "A thoughtful apology may express regret and propose a repair. You might say, “I wish I had listened more carefully. What can I do to make amends?” However, the person who was hurt is not required to forgive immediately. They may need time, and pressuring them can weaken the apology.",
+        "Finally, behavior matters more than perfect wording. If you promise to change but repeat the same action, trust will continue to decline. Rebuilding trust requires consistent evidence: listening without interrupting, keeping agreements, and correcting mistakes early. An apology opens the door to repair, but changed behavior is what allows the relationship to move through it."
       ]
     },
     {
@@ -38,8 +38,8 @@
       "label": "Grammar & Patterns",
       "title": "语法与句型",
       "items": [
-        {"pattern": "It is not that A, but that B.", "explanation": "不是因为 A，而是因为 B。用于纠正常见误解，并指出更准确的原因。A、B 后通常接完整从句。", "example": "It is not that she does not care, but that she needs time to process her feelings."},
-        {"pattern": "Instead of + doing..., try + doing...", "explanation": "与其做……，不如试着做……。instead of 和 try 后都使用动名词，适合提出温和、具体的替代方案。", "example": "Instead of assuming the worst, try asking a calm question."}
+        {"pattern": "I wish + subject + had + past participle", "explanation": "用于表达对过去行为的遗憾。wish 后用过去完成时，表示希望过去发生过不同的情况。", "example": "I wish I had listened before giving advice."},
+        {"pattern": "take responsibility for + noun / -ing", "explanation": "表示“为……承担责任”。for 后接名词或动名词，不接动词原形。", "example": "I take responsibility for making a decision without consulting you."}
       ]
     },
     {
@@ -47,9 +47,9 @@
       "label": "Quick Practice",
       "title": "快速练习",
       "items": [
-        {"kind": "填空", "question": "A calm tone can help ______ an argument before it becomes worse."},
-        {"kind": "改写", "question": "用 Instead of + doing..., try + doing... 改写：Do not blame the other person. Ask what they meant."},
-        {"kind": "理解", "question": "According to the passage, why is validating someone’s feelings different from agreeing with every conclusion?"}
+        {"kind": "填空", "question": "I wish I ______ (not / dismiss) your concerns so quickly."},
+        {"kind": "改写", "question": "用 take responsibility for 改写：I admit that I shared the news without permission."},
+        {"kind": "理解", "question": "According to the passage, why can an explanation weaken an apology, and how can the speaker prevent that?"}
       ]
     },
     {
@@ -58,9 +58,9 @@
       "title": "答案",
       "summary": "查看三题答案",
       "items": [
-        "de-escalate",
-        "Instead of blaming the other person, try asking what they meant.",
-        "Because validation recognizes that the other person’s feelings and experience are real and matter; it does not mean accepting every interpretation or decision as correct."
+        "had not dismissed",
+        "I take responsibility for sharing the news without permission.",
+        "An explanation can weaken an apology when it becomes an excuse that avoids accountability. The speaker can provide context while clearly stating that the circumstances did not justify the harmful behavior."
       ]
     }
   ]
