@@ -14,6 +14,7 @@ async function walk(directory) {
   const entries = await fs.readdir(directory, { withFileTypes: true });
   const files = [];
   for (const entry of entries) {
+    if (entry.name.startsWith('.')) continue;
     const full = path.join(directory, entry.name);
     if (entry.isDirectory()) files.push(...await walk(full));
     else files.push(full);
