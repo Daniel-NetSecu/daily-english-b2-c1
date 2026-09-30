@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-30",
+  "slug": "how-digital-twins-test-the-future",
+  "theme": "科技与科学",
+  "title": "How Digital Twins Test the Future",
+  "subtitle": "数字孪生如何用实时数据和虚拟模型，在现实世界改变之前预测结果。",
+  "level": "B2–C1",
+  "duration": "约 10 分钟",
+  "sections": [
+    {"type":"vocabulary","label":"Vocabulary","title":"生词和重点词语","items":[
+      {"term":"digital twin","part":"n. phr.","meaning":"数字孪生；现实物体或系统的动态虚拟模型","example":"Engineers use a digital twin to monitor the bridge without closing it."},
+      {"term":"real-time data","part":"n. phr.","meaning":"实时数据；在产生后几乎立即可用的数据","example":"The model receives real-time data from hundreds of sensors."},
+      {"term":"simulate","part":"v.","meaning":"模拟；用模型再现过程或情境","example":"Researchers simulated how the building would respond to strong winds."},
+      {"term":"scenario","part":"n.","meaning":"可能发生的情境；设想方案","example":"The team tested several emergency scenarios before choosing a plan."},
+      {"term":"predictive maintenance","part":"n. phr.","meaning":"预测性维护；根据数据预判故障并提前维修","example":"Predictive maintenance can prevent costly machine failures."},
+      {"term":"intervention","part":"n.","meaning":"干预措施；为改变结果而采取的行动","example":"The virtual test showed which intervention would reduce traffic most effectively."},
+      {"term":"trade-off","part":"n.","meaning":"权衡；为了获得某种好处而接受另一种损失","example":"City planners must consider the trade-off between speed and cost."}
+    ]},
+    {"type":"reading","label":"Reading","title":"英语短文","heading":"A Safe Place to Test Risky Ideas","paragraphs":[
+      "A digital twin is more than a three-dimensional picture. It is a virtual model connected to a real object or system through real-time data. Sensors on a wind turbine, for example, can report temperature, vibration, and energy output. As those measurements change, the digital version changes too, giving engineers an up-to-date view of the machine.",
+      "The main advantage is the ability to simulate possible scenarios without putting people or equipment at risk. An engineer can ask, “What would happen if this component became unusually hot?” The model can estimate the result before anyone makes a physical intervention. In factories, this supports predictive maintenance: parts can be repaired when the data suggests that failure is becoming likely, rather than after a breakdown.",
+      "Digital twins can also represent much larger systems. Some cities model traffic, energy use, or flooding to compare policy choices. Before changing a road, planners can test whether the proposal would reduce congestion in one neighborhood but create a new problem elsewhere. The model does not remove the trade-off, but it makes the consequences easier to see.",
+      "However, a digital twin is only as reliable as its data and assumptions. Missing sensors, biased historical records, or an oversimplified model may produce confident but misleading predictions. For that reason, experts treat simulations as evidence, not certainty. The best decisions combine virtual experiments with human judgment, local knowledge, and continuous checks against the real world."
+    ]},
+    {"type":"grammar","label":"Grammar & Patterns","title":"语法与句型","items":[
+      {"pattern":"What would happen if + past simple...?","explanation":"如果……会发生什么？这是第二条件句的疑问形式，用于探讨假设或尚未发生的情境。if 从句用一般过去时，主句用 would 加动词原形。","example":"What would happen if the sensor stopped sending data?"},
+      {"pattern":"be only as + adjective + as...","explanation":"只有……那么……；强调某事物的质量受到另一因素的限制。常用于指出系统、结论或工具的可靠性边界。","example":"A prediction is only as accurate as the information behind it."}
+    ]},
+    {"type":"practice","label":"Quick Practice","title":"快速练习","items":[
+      {"kind":"填空","question":"By analyzing sensor data before a breakdown, a factory can use predictive ______ to repair equipment at the right time."},
+      {"kind":"改写","question":"用 What would happen if...? 改写为假设性问题：The city closes this road. How does traffic change?"},
+      {"kind":"理解","question":"Why should decision-makers avoid treating a digital twin’s predictions as certainty?"}
+    ]},
+    {"type":"answers","label":"Check Your Work","title":"答案","summary":"查看三题答案","items":[
+      "maintenance",
+      "What would happen if the city closed this road?",
+      "Because the model may rely on missing or biased data and oversimplified assumptions; its results should be checked against human knowledge and the real world."
+    ]}
+  ]
+}
