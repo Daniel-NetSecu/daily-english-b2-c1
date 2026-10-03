@@ -80,3 +80,13 @@ The regression suite creates a temporary project-local copy, adds a synthetic ne
 Year and month groups use native details/summary controls (Tab, Enter/Space). The current year/month open automatically; other groups remain collapsible. Only the exact active page gets aria-current; on the homepage this is 最新课程, not its duplicate archive URL. The desktop sidebar is left-aligned and scrollable; mobile uses document flow. Answers remain collapsed.
 
 After reviewing and committing the source changes, push to main. Check the Actions deployment result and fetch the published homepage and dated archive page before calling the release complete. No paid service or package installation is required.
+
+## Restored historical versions
+
+`content/historical/YYYY-MM-DD--slug.json` holds previously published lessons that were overwritten on the same date. Each record preserves its original text and date and adds `sourceCommit` for provenance. The builder merges these into the same chronological navigation, labels them 历史版本, and assigns `archive/YYYY/MM/DD/slug/` URLs. Main lesson URLs remain unchanged and the homepage continues to use the newest regular lesson. Historical themes can repeat because these are preserved originals, not new scheduled lessons. Do not delete this directory when adding new courses.
+
+Recovered on 2026-10-03:
+- 2026-09-24 — The Anatomy of a Sincere Apology (source commit 982fb6a).
+- 2026-09-24 — Small Repairs, Stronger Relationships (source commit c4b1786).
+
+Their dates are the original lesson metadata, not a newly inferred publication time.

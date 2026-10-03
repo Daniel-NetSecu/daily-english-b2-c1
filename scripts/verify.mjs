@@ -5,13 +5,17 @@ import assert from 'node:assert/strict';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const lessons = await Promise.all((await fs.readdir(path.join(root, 'content/lessons'))).filter(n => n.endsWith('.json')).map(async n => JSON.parse(await fs.readFile(path.join(root, 'content/lessons', n), 'utf8'))));
 assert(lessons.length);
+const historicalDir = path.join(root,'content/historical');
+for (const name of await fs.readdir(historicalDir).catch(e => { if (e.code === 'ENOENT') return []; throw e; })) {
+  if (name.endsWith('.json')) lessons.push({...JSON.parse(await fs.readFile(path.join(historicalDir,name),'utf8')), historical:true});
+}
 lessons.sort((a,b) => b.date.localeCompare(a.date));
 const pages = new Set(['index.html', 'archive/index.html']);
 for (const lesson of lessons) {
   const [y,m,d] = lesson.date.split('-');
   pages.add('archive/' + y + '/index.html');
   pages.add('archive/' + y + '/' + m + '/index.html');
-  pages.add('archive/' + y + '/' + m + '/' + d + '/index.html');
+  pages.add('archive/' + y + '/' + m + '/' + d + '/' + (lesson.historical ? lesson.slug + '/' : '') + 'index.html');
 }
 async function walk(dir) {
   const result = [];
@@ -39,7 +43,10 @@ for (const relative of pages) {
   const parts = relative === 'index.html' ? lessons[0].date.split('-') : relative.split('/').slice(1,-1);
   if (parts[0]) check(html.includes('<details class="archive-year" open><summary>'+parts[0]+' 年</summary>'), relative + ': selected year open');
   if (parts[1]) check(html.includes('<details class="archive-month" open><summary>'+parts[1]+' 月</summary>'), relative + ': selected month open');
-  for (const lesson of lessons) check(html.includes(lesson.date+' · '), relative + ': archive contains '+lesson.date);
+  for (const lesson of lessons) {
+    check(html.includes(lesson.date+' · '), relative + ': archive contains '+lesson.date);
+    if (lesson.historical) check(html.includes('/'+lesson.slug+'/'), relative + ': historical lesson link '+lesson.slug);
+  }
   for (const [,href] of html.matchAll(/href="([^"]+)"/g)) {
     if (href.startsWith('#')) { check(html.includes('id="'+href.slice(1)+'"'), 'fragment resolves'); continue; }
     const target = path.resolve(path.dirname(file), href.endsWith('/') ? href+'index.html' : href);
