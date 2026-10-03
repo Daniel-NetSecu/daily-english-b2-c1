@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-02",
+  "slug": "the-hidden-price-of-a-bargain",
+  "theme": "经济与消费决策",
+  "title": "The Hidden Price of a Bargain",
+  "subtitle": "便宜一定划算吗？识别沉没成本、机会成本和真正影响下一步选择的因素。建议节奏：词汇 2 分钟、阅读 3 分钟、语法 2 分钟、练习与核对 3 分钟。",
+  "level": "B2–C1",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {
+          "term": "upfront cost",
+          "part": "n. phr.",
+          "meaning": "前期费用；开始时支付的成本",
+          "example": "The upfront cost is low, but delivery is expensive."
+        },
+        {
+          "term": "sunk cost",
+          "part": "n. phr.",
+          "meaning": "沉没成本；已经付出且无法收回的成本",
+          "example": "The non-refundable ticket is a sunk cost."
+        },
+        {
+          "term": "opportunity cost",
+          "part": "n. phr.",
+          "meaning": "机会成本；选择某事而放弃的最佳替代选项的价值",
+          "example": "The opportunity cost of the trip was a weekend of paid work."
+        },
+        {
+          "term": "incentive",
+          "part": "n.",
+          "meaning": "激励；促使人采取行动的因素",
+          "example": "Free delivery gives customers an incentive to spend more."
+        },
+        {
+          "term": "justify",
+          "part": "v.",
+          "meaning": "证明……合理；为……提供正当理由",
+          "example": "A discount alone does not justify buying something unnecessary."
+        },
+        {
+          "term": "marginal benefit",
+          "part": "n. phr.",
+          "meaning": "边际收益；增加一个单位带来的额外好处",
+          "example": "The marginal benefit of a second identical tool may be small."
+        },
+        {
+          "term": "cut your losses",
+          "part": "v. phr.",
+          "meaning": "及时止损；停止继续投入以避免更大损失",
+          "example": "They decided to cut their losses and cancel the project."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文",
+      "heading": "When Spending Less Means Buying Nothing",
+      "paragraphs": [
+        "Maya visits an online shop to replace a broken kettle. A banner promises free delivery if she spends a little more. She adds a discounted mug, then notices a second offer: buy two mugs and receive a third. Her basket is now larger than planned. Each extra purchase looks like a saving when compared with its original price, yet her total spending has increased. The incentive has changed the question from “What do I need?” to “How much can I save?”",
+        "A useful response is to consider the marginal benefit of each additional item. If Maya already owns enough mugs, another one may add little value. She should compare that benefit with the extra cost, including storage and cleaning, rather than with a price printed beside a discount label. Opportunity cost matters too: money spent on unwanted goods cannot be used for something she values more. Even a genuinely reduced price does not automatically make a purchase worthwhile.",
+        "The same reasoning becomes harder after money has already been spent. Suppose Maya has paid for a non-refundable cooking course but discovers that the remaining sessions clash with a valuable work placement. She feels obliged to finish because otherwise the fee would be “wasted.” However, the fee is a sunk cost: attending more sessions will not recover it. The relevant comparison is between the future benefits and costs of attending and those of taking the placement.",
+        "This does not mean that abandoning a commitment is always sensible. There may be cancellation charges, useful skills still to learn, or consequences for other people. Those are future effects and deserve attention. What should not determine the choice is the desire to justify an irreversible payment. Sometimes it is reasonable to continue; sometimes it is wiser to cut your losses. A good decision depends less on defending yesterday’s spending than on choosing the most valuable next step."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar & Patterns",
+      "title": "语法与句型",
+      "items": [
+        {
+          "pattern": "Even if + clause, ...",
+          "explanation": "即使……也……。用于说明某种条件成立时，主句判断仍然不变；不同于表示已知事实的 even though。",
+          "example": "Even if the mugs are discounted, Maya may not need them."
+        },
+        {
+          "pattern": "What matters is not A, but B.",
+          "explanation": "重要的不是 A，而是 B。what 引导主语从句；A、B 应尽量采用平行结构，突出更合理的判断标准。",
+          "example": "What matters is not the original price, but the value of the item to you."
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Quick Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "填空",
+          "question": "A payment that cannot be recovered is a ______ cost."
+        },
+        {
+          "kind": "改写",
+          "question": "用 Even if 改写：The mugs may be discounted. Maya still may not need them."
+        },
+        {
+          "kind": "理解与应用",
+          "question": "Why should the non-refundable fee not decide Maya’s next step? Name one future factor she should consider instead."
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Check Your Work",
+      "title": "答案",
+      "summary": "查看三题答案",
+      "items": [
+        "sunk",
+        "Even if the mugs are discounted, Maya may not need them.",
+        "The fee cannot be recovered by attending, so it is a sunk cost. She should compare future effects, such as the skills she would gain from the remaining sessions or the benefits of the work placement. Other relevant future costs are also acceptable."
+      ]
+    }
+  ]
+}

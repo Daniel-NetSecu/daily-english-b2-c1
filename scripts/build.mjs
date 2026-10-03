@@ -15,9 +15,22 @@ const files = (await fs.readdir(lessonsDir)).filter((name) => name.endsWith('.js
 if (!files.length) throw new Error('No lesson JSON files found in content/lessons.');
 
 const lessons = [];
+const dates = new Set();
+const themes = new Set();
 for (const file of files) {
   const lesson = JSON.parse(await fs.readFile(path.join(lessonsDir, file), 'utf8'));
   if (!/^\d{4}-\d{2}-\d{2}$/.test(lesson.date)) throw new Error(`${file}: date must be YYYY-MM-DD.`);
+  const parsedDate = new Date(lesson.date + 'T00:00:00Z');
+  if (lesson.date.startsWith('0000-') || !Number.isFinite(parsedDate.getTime()) || parsedDate.toISOString().slice(0, 10) !== lesson.date) throw new Error(file + ': date must be a real calendar date.');
+  if (dates.has(lesson.date)) throw new Error(file + ': duplicate date.');
+  dates.add(lesson.date);
+  for (const key of ['theme', 'title', 'subtitle', 'slug']) {
+    if (typeof lesson[key] !== 'string' || !lesson[key].trim()) throw new Error(file + ': ' + key + ' must be non-empty text.');
+  }
+  const theme = lesson.theme.normalize('NFKC').trim().replace(/\s+/gu, ' ').toLocaleLowerCase('en');
+  if (themes.has(theme)) throw new Error(file + ': duplicate theme: ' + lesson.theme);
+  themes.add(theme);
+  if (lesson.duration !== '约 10 分钟' || lesson.level !== 'B2–C1') throw new Error(file + ': metadata must use B2–C1 and 约 10 分钟.');
   if (file !== `${lesson.date}.json`) throw new Error(`${file}: filename must match lesson date.`);
   const order = lesson.sections?.map((section) => section.type) ?? [];
   if (order.join(',') !== expectedOrder.join(',')) {
@@ -41,16 +54,16 @@ function archiveNav(prefix, current = {}) {
   const tree = years.map(([year, months]) => {
     const monthItems = [...months.entries()].sort(([a], [b]) => b.localeCompare(a)).map(([month, monthLessons]) => {
       const dates = monthLessons.map((lesson) => {
-        const currentAttr = current.date === lesson.date ? ' aria-current="page"' : '';
+        const currentAttr = !current.home && current.date === lesson.date ? ' aria-current="page"' : '';
         return `<li><a href="${prefix}archive/${year}/${month}/${lesson.date.slice(8)}/"${currentAttr}>${escapeHtml(lesson.date)} · ${escapeHtml(lesson.title)}</a></li>`;
       }).join('');
-      const currentAttr = current.month === `${year}-${month}` ? ' aria-current="page"' : '';
-      return `<li><a href="${prefix}archive/${year}/${month}/"${currentAttr}>${month} 月</a><ul>${dates}</ul></li>`;
+      const currentAttr = !current.date && current.month === `${year}-${month}` ? ' aria-current="page"' : '';
+      return `<li><details class="archive-month"${current.month === `${year}-${month}` ? ' open' : ''}><summary>${month} 月</summary><a href="${prefix}archive/${year}/${month}/"${currentAttr}>查看 ${month} 月全部课程</a><ul>${dates}</ul></details></li>`;
     }).join('');
-    const currentAttr = current.year === year ? ' aria-current="page"' : '';
-    return `<li><a href="${prefix}archive/${year}/"${currentAttr}>${year} 年</a><ul>${monthItems}</ul></li>`;
+    const currentAttr = !current.month && !current.date && current.year === year ? ' aria-current="page"' : '';
+    return `<li><details class="archive-year"${current.year === year ? ' open' : ''}><summary>${year} 年</summary><a href="${prefix}archive/${year}/"${currentAttr}>查看 ${year} 年全部课程</a><ul>${monthItems}</ul></details></li>`;
   }).join('');
-  return `<aside class="archive-sidebar" aria-label="课程历史导航"><details class="archive-disclosure" open><summary>课程历史</summary><nav><p><a href="${prefix}archive/"${current.archive ? ' aria-current="page"' : ''}>全部课程</a></p><ul class="archive-tree">${tree}</ul></nav></details></aside>`;
+  return `<aside class="archive-sidebar" aria-label="课程历史导航"><details class="archive-disclosure" open><summary>课程历史</summary><nav><p><a href="${prefix}index.html"${current.home ? ' aria-current="page"' : ''}>最新课程</a></p><p><a href="${prefix}archive/"${current.archive ? ' aria-current="page"' : ''}>全部课程</a></p><ul class="archive-tree">${tree}</ul></nav></details></aside>`;
 }
 
 function shell({ title, description, prefix, current, main, bodyClass = '' }) {
@@ -103,7 +116,7 @@ function lessonPage(lesson, prefix, isHome = false) {
   const sections = lesson.sections.map(renderSection).join('');
   const [year, month] = lesson.date.split('-');
   const hero = `<header class="hero"><div class="hero__inner"><p class="eyebrow">Daily English · ${escapeHtml(lesson.theme)}</p><h1>${escapeHtml(lesson.title)}</h1><p class="lead">${escapeHtml(lesson.subtitle)}</p><div class="meta" aria-label="课程信息"><span class="level">${escapeHtml(lesson.level)}</span><span>${escapeHtml(lesson.duration)}</span><time datetime="${lesson.date}">${lesson.date}</time></div></div></header>`;
-  const main = `${hero}<main id="main-content">${sections}</main><footer><p>Listen first. Clarify gently. Protect the relationship.</p></footer>`;
+  const main = `${hero}<main id="main-content">${sections}</main><footer><p>Learn a little. Practise daily. Keep growing.</p></footer>`;
   return shell({
     title: lesson.title,
     description: `${lesson.theme}：${lesson.title}，包含词汇、短文、语法、练习和折叠答案。`,
@@ -117,7 +130,7 @@ function lessonPage(lesson, prefix, isHome = false) {
 function listingPage({ heading, intro, selectedLessons, prefix, current }) {
   const items = selectedLessons.map((lesson) => {
     const [year, month, day] = lesson.date.split('-');
-    return `<li><time datetime="${lesson.date}">${lesson.date}</time><a href="${prefix}archive/${year}/${month}/${day}/">${escapeHtml(lesson.title)}</a><span>${escapeHtml(lesson.theme)} · ${escapeHtml(lesson.level)}</span></li>`;
+    return `<li><time datetime="${lesson.date}">${lesson.date}</time><a href="${prefix}archive/${year}/${month}/${day}/">${escapeHtml(lesson.title)}</a><span>${escapeHtml(lesson.theme)} · ${escapeHtml(lesson.level)} · ${escapeHtml(lesson.duration)}</span></li>`;
   }).join('');
   const main = `<header class="archive-hero"><p class="eyebrow">Daily English · Archive</p><h1>${escapeHtml(heading)}</h1><p>${escapeHtml(intro)}</p><a class="home-link" href="${prefix}index.html">返回最新课程</a></header><main id="main-content" class="archive-main"><ol class="lesson-list">${items}</ol></main>`;
   return shell({ title: heading, description: intro, prefix, current, main, bodyClass: 'archive-page' });

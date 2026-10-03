@@ -1,80 +1,64 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-
+import assert from 'node:assert/strict';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const failures = [];
-const checks = [];
-
-function assert(condition, message) {
-  (condition ? checks : failures).push(message);
+const lessons = await Promise.all((await fs.readdir(path.join(root, 'content/lessons'))).filter(n => n.endsWith('.json')).map(async n => JSON.parse(await fs.readFile(path.join(root, 'content/lessons', n), 'utf8'))));
+assert(lessons.length);
+lessons.sort((a,b) => b.date.localeCompare(a.date));
+const pages = new Set(['index.html', 'archive/index.html']);
+for (const lesson of lessons) {
+  const [y,m,d] = lesson.date.split('-');
+  pages.add('archive/' + y + '/index.html');
+  pages.add('archive/' + y + '/' + m + '/index.html');
+  pages.add('archive/' + y + '/' + m + '/' + d + '/index.html');
 }
-
-async function walk(directory) {
-  const entries = await fs.readdir(directory, { withFileTypes: true });
-  const files = [];
-  for (const entry of entries) {
-    if (entry.name.startsWith('.')) continue;
-    const full = path.join(directory, entry.name);
-    if (entry.isDirectory()) files.push(...await walk(full));
-    else files.push(full);
+async function walk(dir) {
+  const result = [];
+  for (const entry of await fs.readdir(dir, {withFileTypes:true})) {
+    const full = path.join(dir,entry.name);
+    assert(!entry.isSymbolicLink(), 'no generated symlinks');
+    if (entry.isDirectory()) result.push(...await walk(full)); else result.push(full);
   }
-  return files;
+  return result;
 }
-
-const lessonFiles = (await fs.readdir(path.join(root, 'content', 'lessons'))).filter((name) => name.endsWith('.json'));
-assert(lessonFiles.length > 0, 'at least one lesson JSON exists');
-for (const file of lessonFiles) {
-  const lesson = JSON.parse(await fs.readFile(path.join(root, 'content', 'lessons', file), 'utf8'));
-  assert(file === `${lesson.date}.json`, `${file} matches its date`);
-  assert(lesson.sections.map((section) => section.type).join(',') === 'vocabulary,reading,grammar,practice,answers', `${file} has the required five-section order`);
-}
-
-const required = [
-  'index.html', 'styles.css', 'archive/index.html',
-  'archive/2026/index.html', 'archive/2026/09/index.html', 'archive/2026/09/24/index.html'
-];
-for (const relative of required) {
-  try { await fs.access(path.join(root, relative)); assert(true, `${relative} exists`); }
-  catch { assert(false, `${relative} exists`); }
-}
-
-const htmlFiles = (await walk(root)).filter((file) => file.endsWith('.html'));
-for (const file of htmlFiles) {
-  const relative = path.relative(root, file).replaceAll('\\', '/');
-  const html = await fs.readFile(file, 'utf8');
-  assert(!/(?:src|href)=["'](?:https?:)?\/\//i.test(html), `${relative} has no external resources or links`);
-  assert(html.includes('aria-label="课程历史导航"'), `${relative} includes archive navigation`);
-  assert(html.includes('aria-current="page"'), `${relative} exposes aria-current`);
-  assert(html.includes('<details class="archive-disclosure"'), `${relative} uses native details for mobile archive navigation`);
-  const hrefs = [...html.matchAll(/href="([^"]+)"/g)].map((match) => match[1]);
-  for (const href of hrefs) {
-    if (href.startsWith('#') || href.startsWith('mailto:')) continue;
-    const target = path.resolve(path.dirname(file), href.split('#')[0]);
-    let exists = false;
-    try {
-      const stat = await fs.stat(target);
-      exists = stat.isDirectory() ? await fs.stat(path.join(target, 'index.html')).then(() => true, () => false) : true;
-    } catch {}
-    assert(exists, `${relative} link resolves: ${href}`);
+const actual = ['index.html', ...(await walk(path.join(root,'archive'))).map(f => path.relative(root,f).replaceAll('\\','/'))];
+assert.deepEqual(actual.sort(), [...pages].sort(), 'exact generated page set; no stale pages');
+let checks = 0;
+function check(ok, message) { assert(ok, message); checks++; }
+for (const relative of pages) {
+  const file = path.join(root,relative);
+  const html = await fs.readFile(file,'utf8');
+  check(!/(?:src|href)=["'](?:https?:)?\/\//i.test(html), relative + ': local resources only');
+  check(html.includes('aria-label="课程历史导航"'), relative + ': sidebar');
+  check(html.includes('<details class="archive-disclosure"'), relative + ': mobile disclosure');
+  check(html.includes('<details class="archive-year"') && html.includes('<details class="archive-month"'), relative + ': native year/month groups');
+  const active = [...html.matchAll(/<a href="([^"]+)" aria-current="page"/g)];
+  check(active.length === 1, relative + ': exactly one active link');
+  for (const [,href] of active) check(path.resolve(path.dirname(file), href.endsWith('/') ? href+'index.html' : href) === file, relative + ': active link targets exact page');
+  const parts = relative === 'index.html' ? lessons[0].date.split('-') : relative.split('/').slice(1,-1);
+  if (parts[0]) check(html.includes('<details class="archive-year" open><summary>'+parts[0]+' 年</summary>'), relative + ': selected year open');
+  if (parts[1]) check(html.includes('<details class="archive-month" open><summary>'+parts[1]+' 月</summary>'), relative + ': selected month open');
+  for (const lesson of lessons) check(html.includes(lesson.date+' · '), relative + ': archive contains '+lesson.date);
+  for (const [,href] of html.matchAll(/href="([^"]+)"/g)) {
+    if (href.startsWith('#')) { check(html.includes('id="'+href.slice(1)+'"'), 'fragment resolves'); continue; }
+    const target = path.resolve(path.dirname(file), href.endsWith('/') ? href+'index.html' : href);
+    check(target.startsWith(root+path.sep), 'link stays within site');
+    check((await fs.stat(target)).isFile(), relative + ': link resolves '+href);
+  }
+  if (html.includes('class="lesson-page"')) {
+    check(html.includes('<span>约 10 分钟</span>'), relative + ': duration');
+    check(/<section class="lesson-section answers"[\s\S]*?<details><summary>/.test(html), relative + ': collapsed answers');
+    check(html.includes('Learn a little. Practise daily. Keep growing.'), relative + ': generic footer');
+    const positions = [1,2,3,4,5].map(n => html.indexOf('id="section-'+n+'"'));
+    check(positions.every((p,i) => p >= 0 && (!i || p > positions[i-1])), relative + ': section order');
   }
 }
-
-const home = await fs.readFile(path.join(root, 'index.html'), 'utf8');
-const sequence = ['生词和重点词语', '英语短文', '语法与句型', '快速练习', '答案'].map((label) => home.indexOf(`>${label}</h2>`));
-assert(sequence.every((position) => position >= 0) && sequence.every((position, index) => index === 0 || sequence[index - 1] < position), 'home page renders the five lesson sections in order');
-assert(/<section class="lesson-section answers"[\s\S]*?<details>[\s\S]*?<summary>/.test(home), 'answers are inside a collapsed details element');
-assert(!/<details\s+open[^>]*>\s*<summary[^>]*>查看三题答案<\/summary>/i.test(home), 'answer details is collapsed by default');
-
-const css = await fs.readFile(path.join(root, 'styles.css'), 'utf8');
-assert(/\.archive-disclosure\s*\{[^}]*position:\s*sticky/s.test(css), 'desktop archive sidebar is sticky');
-assert(/@media\s*\(max-width:\s*820px\)[\s\S]*\.archive-disclosure\s*\{[^}]*position:\s*static/s.test(css), 'mobile archive disclosure returns to native document flow');
-assert(/a\[aria-current="page"\]/.test(css), 'aria-current has a visible style');
-
-if (failures.length) {
-  console.error(`Static verification failed (${failures.length}):`);
-  for (const failure of failures) console.error(`- ${failure}`);
-  process.exitCode = 1;
-} else {
-  console.log(`Static verification passed: ${checks.length} checks across ${htmlFiles.length} HTML files.`);
-}
+const home = await fs.readFile(path.join(root,'index.html'),'utf8');
+check(home.includes('<time datetime="'+lessons[0].date+'">'), 'home displays newest lesson');
+const css = await fs.readFile(path.join(root,'styles.css'),'utf8');
+check(/\.archive-disclosure\s*\{[^}]*position:\s*sticky/s.test(css), 'sticky desktop sidebar');
+check(/@media\s*\(max-width:\s*820px\)[\s\S]*\.archive-disclosure\s*\{[^}]*position:\s*static/s.test(css), 'mobile document flow');
+check(css.includes('a[aria-current="page"]'), 'active page styling');
+check(css.includes('summary:focus-visible'), 'keyboard focus styling');
+console.log('Static verification passed: '+checks+' checks across '+pages.size+' HTML files.');

@@ -13,7 +13,7 @@ archive/                         generated archive pages
 styles.css                       shared local stylesheet
 ```
 
-The first lesson follows this exact sequence:
+Every lesson follows this exact sequence:
 
 1. 生词和重点词语
 2. 英语短文
@@ -28,7 +28,7 @@ The site has no package install, remote font, CDN, tracker, client-side framewor
 1. Copy an existing file in `content/lessons/` to `content/lessons/YYYY-MM-DD.json`.
 2. Set `date` to the same `YYYY-MM-DD` value as the filename.
 3. Keep exactly five `sections` in this order: `vocabulary`, `reading`, `grammar`, `practice`, `answers`.
-4. Fill the lesson metadata and section content. Keep the answer section’s `summary` short and put each answer in `items`.
+4. Use a unique theme (normalized Unicode, whitespace and case are checked), level `B2–C1`, and duration `约 10 分钟`. Dates must be real calendar dates; filenames must match. Fill the section content. Keep the answer section’s `summary` short and put each answer in `items`.
 5. Build and verify before committing.
 
 ## Build
@@ -54,22 +54,29 @@ archive/YYYY/MM/DD/index.html
 node scripts/verify.mjs
 ```
 
-The verifier checks lesson naming and section order, generated pages, history navigation, `aria-current`, collapsed answers, desktop sticky navigation, mobile native `details`/`summary`, local link targets, and absence of external resources.
+The builder validates lesson naming, real dates, unique themes, metadata and section order. The verifier checks generated pages, history navigation, `aria-current`, collapsed answers, desktop sticky navigation, mobile native `details`/`summary`, local link targets, and absence of external resources.
 
 For a local browser check, use any static HTTP server rooted at this directory; direct `file://` opening also works because generated links are relative.
 
-## Commit and publish
+## Automatic GitHub Pages deployment
 
-Use the repository’s Git executable and repository-local identity (do not change global Git configuration):
+The workflow in `.github/workflows/pages.yml` runs on pushes to main and manual workflow_dispatch (main only). It rebuilds from lesson JSON, verifies all dynamically derived archive pages, runs isolated regression tests, stages an allowlist of public HTML/CSS, and deploys the Pages artifact. Generated files checked into Git are not trusted as build inputs.
 
-```powershell
-<absolute-path-to-git.exe> config --local user.name "Daniel-NetSecu"
-<absolute-path-to-git.exe> config --local user.email "193844612+Daniel-NetSecu@users.noreply.github.com"
+One-time owner action: in **Settings → Pages → Build and deployment**, select **GitHub Actions** as the source. The workflow does not change repository settings. Until the owner enables Actions-based Pages, deployment may fail; a local build is not proof of publication.
+
+Build has only contents: read; deployment has only pages: write and id-token: write. Checkout does not persist credentials. Only _site is uploaded: index.html, styles.css, and archive/**/index.html. No JSON sources, scripts, Git metadata, credentials, or README are included. All lesson content must remain original/public-safe; JSON text is HTML-escaped.
+
+### Complete local pipeline
+
+```sh
 node scripts/build.mjs
 node scripts/verify.mjs
-<absolute-path-to-git.exe> add README.md content scripts index.html archive styles.css
-<absolute-path-to-git.exe> commit -m "Build data-driven Daily English archive"
-<absolute-path-to-git.exe> push origin main
+node scripts/test.mjs
+node scripts/stage.mjs
 ```
 
-GitHub Pages is configured to deploy from the repository root of the `main` branch. After pushing, confirm the Pages API/build status and fetch the published URL over HTTPS before treating the release as complete.
+The regression suite creates a temporary project-local copy, adds a synthetic new year and month, rebuilds after each addition, checks homepage promotion and all navigation links, removes the fixtures to prove stale-page cleanup, and tests invalid dates, leap days, duplicate themes, metadata and section order. It cleans up in finally and does not change real lessons. _site and temporary copies are ignored by Git.
+
+Year and month groups use native details/summary controls (Tab, Enter/Space). The current year/month open automatically; other groups remain collapsible. Only the exact active page gets aria-current; on the homepage this is 最新课程, not its duplicate archive URL. The desktop sidebar is left-aligned and scrollable; mobile uses document flow. Answers remain collapsed.
+
+After reviewing and committing the source changes, push to main. Check the Actions deployment result and fetch the published homepage and dated archive page before calling the release complete. No paid service or package installation is required.

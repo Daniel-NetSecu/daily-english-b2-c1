@@ -23,7 +23,7 @@ a:hover { color: var(--coral); }
 .site-layout { display: grid; grid-template-columns: 17.5rem minmax(0, 1fr); min-height: 100vh; }
 .page-column { min-width: 0; }
 .archive-sidebar { position: relative; z-index: 4; padding: 1.5rem; background: #eef1e9; border-right: 1px solid var(--line); }
-.archive-disclosure { position: sticky; top: 1.5rem; }
+.archive-disclosure { position: sticky; top: 1.5rem; max-height: calc(100vh - 3rem); overflow-y: auto; }
 .archive-disclosure > summary { display: none; }
 .archive-sidebar nav > p { margin: 0 0 .8rem; font-weight: 800; }
 .archive-tree, .archive-tree ul { margin: 0; padding-left: 1rem; list-style: none; }
@@ -91,7 +91,7 @@ footer p { margin: 0; font-family: Georgia, serif; font-size: 1.1rem; font-style
 @media (max-width: 820px) {
   .site-layout { display: block; }
   .archive-sidebar { position: static; padding: .7rem 1rem; border-right: 0; border-bottom: 1px solid var(--line); }
-  .archive-disclosure { position: static; }
+  .archive-disclosure { position: static; max-height: none; }
   .archive-disclosure > summary { display: list-item; cursor: pointer; font-weight: 800; }
   .archive-disclosure nav { padding-top: .6rem; }
   .hero { min-height: 58vh; padding-block: 4rem; }
@@ -109,3 +109,7 @@ footer p { margin: 0; font-family: Georgia, serif; font-size: 1.1rem; font-style
 }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.archive-tree summary { cursor: pointer; padding: .25rem; font-weight: 700; }
+a:focus-visible, summary:focus-visible { outline: 3px solid var(--green); outline-offset: 3px; }
+.archive-tree a { overflow-wrap: anywhere; }
