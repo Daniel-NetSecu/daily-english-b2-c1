@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-03",
+  "slug": "making-room-for-a-wilder-garden",
+  "theme": "自然与城市生物多样性",
+  "title": "Making Room for a Wilder Garden",
+  "subtitle": "整齐不一定等于健康：用一座假想花园，练习讨论栖息地、管理选择与观察证据。建议节奏：词汇 2 分钟、阅读 3 分钟、语法 2 分钟、练习与核对 3 分钟。",
+  "level": "B2–C1",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {
+          "term": "habitat",
+          "part": "n.",
+          "meaning": "栖息地；生物生活的环境",
+          "example": "A small pond can provide a habitat for aquatic insects."
+        },
+        {
+          "term": "biodiversity",
+          "part": "n.",
+          "meaning": "生物多样性",
+          "example": "The group wants to support biodiversity rather than grow only one kind of plant."
+        },
+        {
+          "term": "native species",
+          "part": "n. phr.",
+          "meaning": "本地物种；自然分布于某地区的物种",
+          "example": "They checked which native species suited the garden’s soil."
+        },
+        {
+          "term": "shelter",
+          "part": "n. / v.",
+          "meaning": "庇护处；为……提供庇护",
+          "example": "Dry stems may offer shelter to small insects."
+        },
+        {
+          "term": "trade-off",
+          "part": "n.",
+          "meaning": "权衡；获得某种好处时作出的取舍",
+          "example": "The design involves a trade-off between open space and dense planting."
+        },
+        {
+          "term": "leave intact",
+          "part": "v. phr.",
+          "meaning": "保持完整；不破坏",
+          "example": "They decided to leave a small patch of vegetation intact."
+        },
+        {
+          "term": "monitor",
+          "part": "v.",
+          "meaning": "持续观察；监测",
+          "example": "Volunteers monitor the patch before making further changes."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文",
+      "heading": "A Little Less Tidy, a Little More Alive",
+      "paragraphs": [
+        "Imagine a neighbourhood garden with short grass, bare soil beneath the shrubs, and not a fallen leaf in sight. It looks carefully maintained. Yet a tidy appearance tells us little about how well a place supports wildlife. Animals need food and shelter, and different species need different conditions. A garden designed only to look neat may remove some of the features that make it useful as a habitat.",
+        "In this imagined garden, a volunteer group proposes a modest experiment. Instead of changing the entire site, they will leave one small patch intact for part of the year. They will also select locally appropriate native plants with different flowering periods. Flowers can provide food for pollinators, while stems and leaf litter may offer shelter to other small animals. Native species are not a guarantee of success: soil, moisture, light, and the needs of particular animals still matter.",
+        "The proposal raises practical concerns. Some neighbours want clear paths and space for children to play. Others worry that an unmanaged corner will look abandoned. Rather than treating these concerns as opposition to nature, the group discusses a trade-off. They keep the paths clear, maintain a neat border, and put up a sign explaining the experiment. The aim is not to stop caring for the garden, but to care for different parts in different ways.",
+        "Provided that the site remains safe and accessible, the volunteers will monitor the patch through the seasons. They plan to record what they see at similar times and note the weather. More insect sightings would be encouraging, but would not, on their own, prove that biodiversity had increased: a sunny afternoon might simply make insects easier to notice. Nor would a quiet week necessarily mean failure. The group needs repeated observations and a willingness to adjust. Making room for nature involves more than allowing plants to grow; it also requires patience about what the evidence can tell us."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar & Patterns",
+      "title": "语法与句型",
+      "items": [
+        {
+          "pattern": "Provided that + present simple, ... will + verb",
+          "explanation": "只要……，就会……。provided that 引导条件从句；谈论未来条件时，从句通常用一般现在时，主句可用 will。比 if 更强调必要条件。",
+          "example": "Provided that the paths remain clear, the group will continue the experiment."
+        },
+        {
+          "pattern": "Rather than + -ing, ...",
+          "explanation": "不是做……，而是……。用于对比两种做法；此处 rather than 后用动名词，主句明确实际选择，注意两部分的逻辑主语一致。",
+          "example": "Rather than removing every fallen leaf, the volunteers leave some beneath the shrubs."
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Quick Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "词汇填空",
+          "question": "A balance between clear play areas and dense planting involves a ______.（权衡）"
+        },
+        {
+          "kind": "语法选择",
+          "question": "Provided that the site (remains / will remain) accessible, the volunteers will continue monitoring it."
+        },
+        {
+          "kind": "句型改写",
+          "question": "用 Rather than removing 开头改写：The volunteers do not remove every fallen leaf. They leave some beneath the shrubs."
+        },
+        {
+          "kind": "阅读推理",
+          "question": "Why would more insect sightings on one sunny afternoon not prove that biodiversity had increased? Answer in one or two sentences."
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Check Your Work",
+      "title": "答案",
+      "summary": "查看四题答案",
+      "items": [
+        "trade-off",
+        "remains。这里谈论未来条件，provided that 从句用一般现在时。",
+        "Rather than removing every fallen leaf, the volunteers leave some beneath the shrubs.",
+        "Sunny weather might make insects easier to notice. More sightings on a single afternoon do not establish an increase in biodiversity; repeated observations are needed.（意思相符即可。）"
+      ]
+    }
+  ]
+}
