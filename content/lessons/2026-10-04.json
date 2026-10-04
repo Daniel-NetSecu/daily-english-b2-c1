@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-04",
+  "slug": "digital-twins-before-the-pump-breaks",
+  "theme": "数字孪生与设备故障预警",
+  "title": "Digital Twins: Before the Pump Breaks",
+  "subtitle": "从故障预警到现场核查：用一家假想工厂，学习数字孪生如何辅助预测性维护，而不是替代人的判断。建议节奏：词汇 2 分钟、阅读 3 分钟、语法 2 分钟、练习与核对 3 分钟。",
+  "level": "B2–C1",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {
+          "term": "operating conditions",
+          "part": "n. phr.",
+          "meaning": "运行条件；the circumstances in which equipment works",
+          "example": "The team compared readings under similar operating conditions."
+        },
+        {
+          "term": "establish a baseline",
+          "part": "v. phr.",
+          "meaning": "建立基准；define a reference for later comparisons",
+          "example": "Engineers establish a baseline before interpreting changes."
+        },
+        {
+          "term": "wear out",
+          "part": "phr. v.",
+          "meaning": "磨损；因使用而失效；become damaged or unusable through use",
+          "example": "Bearings can wear out after prolonged use."
+        },
+        {
+          "term": "persistent mismatch",
+          "part": "n. phr.",
+          "meaning": "持续不匹配；a difference that continues over time",
+          "example": "A persistent mismatch led the technician to inspect the pump."
+        },
+        {
+          "term": "false alarm",
+          "part": "n. phr.",
+          "meaning": "误报；a warning that incorrectly suggests a problem",
+          "example": "A loose sensor caused a false alarm."
+        },
+        {
+          "term": "planned shutdown",
+          "part": "n. phr.",
+          "meaning": "计划停机；a scheduled period when equipment is stopped",
+          "example": "The inspection took place during a planned shutdown."
+        },
+        {
+          "term": "keep something in perspective",
+          "part": "v. phr.",
+          "meaning": "客观看待某事；judge something in its wider context",
+          "example": "Inspection results help us keep predictions in perspective."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文",
+      "heading": "An Alert Is Not a Diagnosis",
+      "paragraphs": [
+        "In an imagined packaging factory, a pump has begun to vibrate more than usual. It still works, and stopping it would delay production. The maintenance team faces an awkward question: is this harmless variation, or an early warning of failure? Instead of relying on a single alarm, the engineers consult a digital twin, a virtual model updated with measurements from the physical pump.",
+        "The twin compares current behaviour with a baseline established under similar operating conditions. This detail matters. A pump working harder may naturally become warmer, so a temperature rise alone does not establish that a part is wearing out. In this scenario, the model considers vibration, temperature, and workload together. A persistent mismatch between expected and observed behaviour prompts the team to investigate a possible bearing problem.",
+        "However, an alert is not a diagnosis. A loose sensor could also produce unusual readings. Before ordering a replacement, a technician checks the sensor and inspects the equipment. The team then uses the twin to explore what might happen under a lighter workload. The simulation suggests that reducing demand could create a window for inspection, but it does not guarantee safe operation. Any decision must still follow the factory’s established safety procedures.",
+        "The engineers choose a planned shutdown rather than waiting for an unexpected breakdown. Afterwards, they compare the removed bearing’s condition with the model’s prediction. Had they treated the alert as proof, they might have replaced a healthy component unnecessarily. Equally, dismissing every uncertain warning would defeat the purpose of monitoring. The value of the twin lies in helping people ask better questions and schedule checks, not in eliminating judgment. Over time, records of confirmed faults and false alarms can help the team refine the model. Predictive maintenance therefore becomes a cycle of observation, investigation, action, and feedback: the virtual pump learns from the real one, while human expertise keeps the predictions in perspective."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar & Patterns",
+      "title": "语法与句型",
+      "items": [
+        {
+          "pattern": "Had + subject + past participle, ... might have + past participle",
+          "explanation": "过去反事实条件句的倒装形式，相当于 If + 主语 + had + 过去分词；省略 if 后将 had 提到主语前。might have 表示过去本来可能发生的结果，而非确定结果。",
+          "example": "Had they ignored the warning, they might have missed an early sign of damage."
+        },
+        {
+          "pattern": "The value of X lies in + -ing, not in + -ing.",
+          "explanation": "X 的价值在于……，而不在于……。lie in 表示“在于”；介词 in 后接动名词，两部分保持平行结构。",
+          "example": "The value of the model lies in guiding inspections, not in replacing technicians."
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Quick Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "词汇填空",
+          "question": "To interpret new measurements, the team first needs to establish a ______.（基准）"
+        },
+        {
+          "kind": "阅读理解",
+          "question": "Why does the twin compare measurements under similar operating conditions rather than treating every temperature rise as a fault?"
+        },
+        {
+          "kind": "阅读推理",
+          "question": "Why should a technician check the sensor before ordering a replacement component?"
+        },
+        {
+          "kind": "句型改写",
+          "question": "省略 if 并用倒装改写：If they had treated the alert as proof, they might have replaced a healthy component."
+        },
+        {
+          "kind": "应用表达",
+          "question": "用 The value of ... lies in ..., not in ... 写一句话，说明数字孪生在本案例中的合理作用。"
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Check Your Work",
+      "title": "答案",
+      "summary": "展开核对五题答案",
+      "items": [
+        "1. baseline。establish a baseline = 建立比较基准。",
+        "2. A higher workload can naturally make a pump warmer. Comparing similar conditions helps distinguish normal variation from a possible fault.（意思相符即可。）",
+        "3. A loose sensor may cause unusual readings. Checking it helps avoid replacing a healthy component because of a false alarm.",
+        "4. Had they treated the alert as proof, they might have replaced a healthy component.",
+        "5. 示例：The value of a digital twin lies in helping people schedule checks, not in eliminating human judgment.（in 后使用动名词，内容合理即可。）"
+      ]
+    }
+  ]
+}
