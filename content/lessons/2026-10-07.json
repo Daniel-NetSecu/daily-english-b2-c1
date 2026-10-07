@@ -3,7 +3,7 @@
   "slug": "a-quieter-room-without-a-bigger-bill",
   "theme": "旅行住宿：协商换房与确认费用",
   "title": "A Quieter Room Without a Bigger Bill",
-  "subtitle": "3段故事与对话，每段约50–65词；5个词组，1个语法点。两天分段背诵，约10分钟含朗读与练习。",
+  "subtitle": "3段故事与对话（分别108、109、111词），标点不计词数；5个词组，1个语法点。两天分段背诵，约10分钟含朗读与练习。",
   "level": "B2–C1",
   "duration": "约 10 分钟",
   "sections": [
@@ -13,22 +13,16 @@
       "title": "生词和重点词语",
       "items": [
         {
-          "term": "overlook a busy street",
+          "term": "raise a concern",
           "part": "phr.",
-          "meaning": "俯瞰／朝向繁忙街道",
-          "example": "Her room overlooks a busy street."
+          "meaning": "提出顾虑／反映问题",
+          "example": "I would like to raise a concern about the noise."
         },
         {
-          "term": "a light sleeper",
+          "term": "subject to availability",
           "part": "phr.",
-          "meaning": "睡眠浅的人",
-          "example": "Lena is a light sleeper."
-        },
-        {
-          "term": "lose one’s temper",
-          "part": "phr.",
-          "meaning": "发脾气",
-          "example": "She explains the problem without losing her temper."
+          "meaning": "视空余情况而定",
+          "example": "Room changes are subject to availability."
         },
         {
           "term": "exceed my budget",
@@ -40,7 +34,13 @@
           "term": "at no extra charge",
           "part": "phr.",
           "meaning": "不另收费",
-          "example": "The hotel offers another room at no extra charge."
+          "example": "The room is available at no extra charge."
+        },
+        {
+          "term": "written confirmation",
+          "part": "phr.",
+          "meaning": "书面确认",
+          "example": "She requests written confirmation of the arrangement."
         }
       ]
     },
@@ -50,9 +50,9 @@
       "title": "英语短文 · 两天背诵版",
       "heading": "A Practical Request at Reception",
       "paragraphs": [
-        "After a long train journey, Lena arrives at her hotel, hoping for a quiet evening. However, her room overlooks a busy street, and the traffic keeps her awake. As a light sleeper, she knows that another restless night will spoil her plans. Rather than lose her temper, she decides to explain the problem calmly at reception.",
-        "“I realise the hotel is nearly full, but would it be possible to move to a quieter room?” she asks. The receptionist offers a larger room for an additional fee. “Thank you, but that would exceed my budget,” Lena replies. “I don’t need more space. I’d be happy with a smaller room, provided it is away from the street.”",
-        "After checking availability, the receptionist finds a room facing the courtyard and offers it at no extra charge. Before accepting, Lena asks whether breakfast is still included and requests written confirmation of the arrangement. Ten minutes later, she settles into her new room, relieved that a clear request and a little flexibility have led to a practical solution."
+        "After a long train journey, Lena checks into a hotel for three nights, hoping to relax before exploring the city. Her room overlooks a busy street, and music from a nearby bar continues late into the evening. As a light sleeper, she worries that the noise will leave her exhausted the next morning. She closes the window, but it makes little difference. Rather than lose her temper or demand an immediate refund, she decides to speak to reception. Before going downstairs, she identifies her priorities: a quiet room, the same price, and as little disruption to her stay as possible. This helps her make a clear, reasonable request.",
+        "“Good evening. I would like to raise a concern about the noise outside my room,” Lena begins. “I realise you cannot control the bar, but would it be possible to move me somewhere quieter?” The receptionist explains that room changes are subject to availability and offers a larger room for an additional fee. “I appreciate the offer, but that would exceed my budget,” she replies. “I would be happy with a smaller room, provided it is away from the street.” She also offers to wait until the following afternoon if necessary. By showing flexibility about timing and size, Lena makes it easier for the receptionist to suggest another option.",
+        "After checking with a colleague, the receptionist finds a standard room facing the courtyard. It is available immediately and can be offered at no extra charge. Before accepting, Lena confirms that breakfast is still included and asks whether she needs to move her luggage herself. She then requests written confirmation so that the morning team will have the same information. A few minutes later, she receives an email listing the new room number and the unchanged rate. Upstairs, the courtyard is peaceful. Lena realises that a successful complaint is not about winning an argument: it is about explaining a problem clearly and agreeing on a solution that works for both sides."
       ]
     },
     {
@@ -63,7 +63,7 @@
         {
           "pattern": "provided (that) + 从句",
           "explanation": "表示“只要……／条件是……”，引导条件状语从句，that 可以省略。比 if 更强调接受某个安排的前提。",
-          "example": "I’d be happy with a smaller room, provided it is away from the street."
+          "example": "I would be happy with a smaller room, provided it is away from the street."
         }
       ]
     },
