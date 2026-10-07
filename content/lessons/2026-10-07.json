@@ -3,7 +3,7 @@
   "slug": "a-quieter-room-without-a-bigger-bill",
   "theme": "旅行住宿：协商换房与确认费用",
   "title": "A Quieter Room Without a Bigger Bill",
-  "subtitle": "生活英语：酒店房间太吵时，如何礼貌提出换房、守住预算并确认安排。词汇 2 分钟、阅读 3 分钟、句式 2 分钟、练习 3 分钟。",
+  "subtitle": "两天背诵版：4段短文，5个词组，1个语法点。第1天背前两段，第2天背后两段并串联复述；约10分钟含朗读与练习。",
   "level": "B2–C1",
   "duration": "约 10 分钟",
   "sections": [
@@ -13,60 +13,47 @@
       "title": "生词和重点词语",
       "items": [
         {
-          "term": "raise a concern",
+          "term": "disturb my sleep",
           "part": "phr.",
-          "meaning": "提出顾虑；bring a problem to someone’s attention",
-          "example": "I’d like to raise a concern about the noise outside my room."
-        },
-        {
-          "term": "light sleeper",
-          "part": "n. phr.",
-          "meaning": "睡眠浅的人；someone who wakes easily",
-          "example": "I’m a light sleeper, so a quiet room makes a real difference."
-        },
-        {
-          "term": "subject to availability",
-          "part": "phr.",
-          "meaning": "视空余情况而定；depending on whether something is available",
-          "example": "Room changes are subject to availability."
+          "meaning": "打扰我的睡眠",
+          "example": "The noise is disturbing my sleep."
         },
         {
           "term": "at no extra charge",
           "part": "phr.",
-          "meaning": "不另收费；without an additional payment",
-          "example": "Could I move to a quieter room at no extra charge?"
+          "meaning": "不另收费",
+          "example": "Could I move at no extra charge?"
         },
         {
-          "term": "meet someone halfway",
+          "term": "exceed my budget",
           "part": "phr.",
-          "meaning": "各让一步；reach an agreement by making concessions",
-          "example": "Could you meet me halfway on the upgrade fee?"
+          "meaning": "超出我的预算",
+          "example": "An upgrade would exceed my budget."
         },
         {
-          "term": "take someone up on an offer",
+          "term": "subject to availability",
           "part": "phr.",
-          "meaning": "接受某人的提议；accept something that someone has offered",
-          "example": "I’d like to take you up on your offer of a different room."
+          "meaning": "视空余情况而定",
+          "example": "Room changes are subject to availability."
         },
         {
-          "term": "put something in writing",
+          "term": "confirm in writing",
           "part": "phr.",
-          "meaning": "以书面确认；record an agreement in written form",
-          "example": "Could you put the agreed room rate in writing?"
+          "meaning": "以书面形式确认",
+          "example": "Could you confirm the arrangement in writing?"
         }
       ]
     },
     {
       "type": "reading",
       "label": "Reading",
-      "title": "英语短文",
+      "title": "英语短文 · 两天背诵版",
       "heading": "A Practical Request at Reception",
       "paragraphs": [
-        "After a long train journey, Lena checks into a hotel for three nights. Her room overlooks a busy street, and music from a nearby bar continues late into the evening. She is a light sleeper and has an early museum visit planned. Instead of demanding a refund immediately, she goes to reception with a specific request: a quieter room within her original budget.",
-        "“Good evening. I’d like to raise a concern about the noise outside my room,” she begins. “I realise you can’t control the bar, but would it be possible to move me somewhere quieter?” The receptionist explains that room changes are subject to availability. Only a larger courtyard room is ready tonight, and it normally costs more. Lena asks, “Is there any chance you could offer it at no extra charge?”",
-        "The receptionist cannot waive the entire supplement but offers a reduced upgrade fee. Lena responds, “I appreciate the offer. However, that would still take me over my budget. Could you meet me halfway by keeping the original rate tonight? I’d be happy to move to a standard room tomorrow.” Her suggestion separates what she needs, a quiet night, from what she does not need, a larger room for the whole stay.",
-        "After checking with a manager, the receptionist agrees. A standard courtyard room should be ready the following afternoon, although its exact location cannot yet be confirmed. Lena checks the practical details: where she can leave her bag, when she should collect the new key, and whether breakfast remains included. “I’d like to take you up on that offer,” she says. “Could you put the arrangement in writing so the morning team has the same information?”",
-        "The confirmation lists tonight’s room, the unchanged rate, and tomorrow’s planned move. Lena thanks the receptionist. Politeness has not guaranteed her preferred outcome; the hotel could have refused. It has, however, helped both sides discuss constraints and agree on a workable alternative without turning a practical problem into a personal argument."
+        "I’m staying in a room facing the street, and the noise is disturbing my sleep. I understand that the hotel is busy, but would it be possible to move to a quieter room?",
+        "I’d appreciate it if you could arrange this at no extra charge. I booked three nights, and an upgrade would exceed my budget. A smaller room would be fine, provided it is quiet.",
+        "I realise that room changes are subject to availability. If nothing is available tonight, I’d be happy to move tomorrow. Could I leave my luggage at reception while the new room is being prepared?",
+        "Thank you for your help. Could you confirm the arrangement in writing, including the room rate and whether breakfast is included? That would help avoid any misunderstanding."
       ]
     },
     {
@@ -75,19 +62,9 @@
       "title": "语法与句型",
       "items": [
         {
-          "pattern": "I realise + clause, but would it be possible to + verb...?",
-          "explanation": "先承认对方的限制，再提出具体请求。would 使语气更委婉；to 后用动词原形。比只说 This is unacceptable 更容易让对方知道你希望怎样解决。",
-          "example": "I realise the hotel is busy, but would it be possible to check another room?"
-        },
-        {
-          "pattern": "That would + verb. / I’d be happy to + verb.",
-          "explanation": "would 可表示某个提议若实施后的结果：That would take me over my budget（那样会超出预算）。I’d be happy to 则表示愿意配合；将预算限制与可接受的让步连用，适合协商。",
-          "example": "That would take me over my budget. I’d be happy to move again tomorrow."
-        },
-        {
-          "pattern": "Could you + verb ... so + subject + verb ...?",
-          "explanation": "礼貌请求后用 so 引导目的从句，解释为什么需要对方这样做。这里 so 相当于 so that，而不是表示结果的“因此”。",
-          "example": "Could you email me the arrangement so the morning team has a clear record?"
+          "pattern": "I’d appreciate it if you could + 动词原形…",
+          "explanation": "表示“如果您能……，我将不胜感激”，用于委婉请求。I’d = I would；这里 could 并非过去时间，而是让语气更礼貌。",
+          "example": "I’d appreciate it if you could confirm the room rate."
         }
       ]
     },
@@ -97,24 +74,12 @@
       "title": "快速练习",
       "items": [
         {
-          "kind": "词组填空",
-          "question": "Complete: Room changes are subject to ______. / Could I move at no extra ______?"
+          "kind": "替换练习",
+          "question": "用 I’d appreciate it if you could… 请求酒店以书面确认安排。"
         },
         {
-          "kind": "阅读理解",
-          "question": "Why does Lena offer to move again tomorrow instead of insisting on the larger room for all three nights?"
-        },
-        {
-          "kind": "细节辨析",
-          "question": "True or false: The receptionist has confirmed the exact location of tomorrow’s room. Explain briefly."
-        },
-        {
-          "kind": "情景表达",
-          "question": "你住的房间靠近电梯，夜间很吵。用 I realise..., but would it be possible to... 写一句礼貌的换房请求。"
-        },
-        {
-          "kind": "简短邮件",
-          "question": "用 35–50 个英文词给酒店写确认邮件：感谢安排；确认今晚维持原价、明天下午换到标准庭院房；询问早餐是否仍包含在房价内。"
+          "kind": "两天背诵",
+          "question": "第1天：理解并背诵前两段（说明问题、提出请求）。第2天：背诵后两段（协商时间、确认安排），再不看原文串联复述。可将 street 换成 lift、noise 换成 music，练习迁移。"
         }
       ]
     },
@@ -122,13 +87,9 @@
       "type": "answers",
       "label": "Check Your Work",
       "title": "答案",
-      "summary": "展开核对五题答案与邮件范例",
+      "summary": "展开查看一句参考答案",
       "items": [
-        "1. availability; charge。subject to availability = 视空余情况而定；at no extra charge = 不另收费。",
-        "2. Her priorities are a quiet room and staying within budget, not having a larger room throughout her stay. Offering to move gives the hotel a workable compromise.",
-        "3. False. A standard courtyard room should be ready the following afternoon, but its exact location has not been confirmed.",
-        "4. 示例：I realise room changes depend on availability, but would it be possible to move me to a room away from the lift?（承认限制并提出具体请求即可。）",
-        "5. 示例：Thank you for arranging a quieter room. Could you please confirm that my original rate will apply tonight and that I will move to a standard courtyard room tomorrow afternoon? Please also confirm whether breakfast is still included in the agreed rate.（42 词；意思完整、语气礼貌即可。）"
+        "I’d appreciate it if you could confirm the arrangement in writing. 背诵时先记四步：问题 → 请求 → 备选方案 → 确认。"
       ]
     }
   ]
