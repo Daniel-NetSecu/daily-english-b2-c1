@@ -3,7 +3,7 @@
   "slug": "a-quieter-room-without-a-bigger-bill",
   "theme": "旅行住宿：协商换房与确认费用",
   "title": "A Quieter Room Without a Bigger Bill",
-  "subtitle": "两天背诵版：4段短文，5个词组，1个语法点。第1天背前两段，第2天背后两段并串联复述；约10分钟含朗读与练习。",
+  "subtitle": "3段故事与对话，每段约50–65词；5个词组，1个语法点。两天分段背诵，约10分钟含朗读与练习。",
   "level": "B2–C1",
   "duration": "约 10 分钟",
   "sections": [
@@ -13,34 +13,34 @@
       "title": "生词和重点词语",
       "items": [
         {
-          "term": "disturb my sleep",
+          "term": "overlook a busy street",
           "part": "phr.",
-          "meaning": "打扰我的睡眠",
-          "example": "The noise is disturbing my sleep."
+          "meaning": "俯瞰／朝向繁忙街道",
+          "example": "Her room overlooks a busy street."
         },
         {
-          "term": "at no extra charge",
+          "term": "a light sleeper",
           "part": "phr.",
-          "meaning": "不另收费",
-          "example": "Could I move at no extra charge?"
+          "meaning": "睡眠浅的人",
+          "example": "Lena is a light sleeper."
+        },
+        {
+          "term": "lose one’s temper",
+          "part": "phr.",
+          "meaning": "发脾气",
+          "example": "She explains the problem without losing her temper."
         },
         {
           "term": "exceed my budget",
           "part": "phr.",
           "meaning": "超出我的预算",
-          "example": "An upgrade would exceed my budget."
+          "example": "That would exceed my budget."
         },
         {
-          "term": "subject to availability",
+          "term": "at no extra charge",
           "part": "phr.",
-          "meaning": "视空余情况而定",
-          "example": "Room changes are subject to availability."
-        },
-        {
-          "term": "confirm in writing",
-          "part": "phr.",
-          "meaning": "以书面形式确认",
-          "example": "Could you confirm the arrangement in writing?"
+          "meaning": "不另收费",
+          "example": "The hotel offers another room at no extra charge."
         }
       ]
     },
@@ -50,10 +50,9 @@
       "title": "英语短文 · 两天背诵版",
       "heading": "A Practical Request at Reception",
       "paragraphs": [
-        "I’m staying in a room facing the street, and the noise is disturbing my sleep. I understand that the hotel is busy, but would it be possible to move to a quieter room?",
-        "I’d appreciate it if you could arrange this at no extra charge. I booked three nights, and an upgrade would exceed my budget. A smaller room would be fine, provided it is quiet.",
-        "I realise that room changes are subject to availability. If nothing is available tonight, I’d be happy to move tomorrow. Could I leave my luggage at reception while the new room is being prepared?",
-        "Thank you for your help. Could you confirm the arrangement in writing, including the room rate and whether breakfast is included? That would help avoid any misunderstanding."
+        "After a long train journey, Lena arrives at her hotel, hoping for a quiet evening. However, her room overlooks a busy street, and the traffic keeps her awake. As a light sleeper, she knows that another restless night will spoil her plans. Rather than lose her temper, she decides to explain the problem calmly at reception.",
+        "“I realise the hotel is nearly full, but would it be possible to move to a quieter room?” she asks. The receptionist offers a larger room for an additional fee. “Thank you, but that would exceed my budget,” Lena replies. “I don’t need more space. I’d be happy with a smaller room, provided it is away from the street.”",
+        "After checking availability, the receptionist finds a room facing the courtyard and offers it at no extra charge. Before accepting, Lena asks whether breakfast is still included and requests written confirmation of the arrangement. Ten minutes later, she settles into her new room, relieved that a clear request and a little flexibility have led to a practical solution."
       ]
     },
     {
@@ -62,9 +61,9 @@
       "title": "语法与句型",
       "items": [
         {
-          "pattern": "I’d appreciate it if you could + 动词原形…",
-          "explanation": "表示“如果您能……，我将不胜感激”，用于委婉请求。I’d = I would；这里 could 并非过去时间，而是让语气更礼貌。",
-          "example": "I’d appreciate it if you could confirm the room rate."
+          "pattern": "provided (that) + 从句",
+          "explanation": "表示“只要……／条件是……”，引导条件状语从句，that 可以省略。比 if 更强调接受某个安排的前提。",
+          "example": "I’d be happy with a smaller room, provided it is away from the street."
         }
       ]
     },
@@ -75,11 +74,11 @@
       "items": [
         {
           "kind": "替换练习",
-          "question": "用 I’d appreciate it if you could… 请求酒店以书面确认安排。"
+          "question": "用 provided (that) 表达：只要包含早餐，我就愿意接受这个房间。"
         },
         {
           "kind": "两天背诵",
-          "question": "第1天：理解并背诵前两段（说明问题、提出请求）。第2天：背诵后两段（协商时间、确认安排），再不看原文串联复述。可将 street 换成 lift、noise 换成 music，练习迁移。"
+          "question": "第1天：背第1段和第2段前半部分。第2天：背剩余内容并全文复述。用“发现问题 → 礼貌协商 → 确认解决”串起三段。"
         }
       ]
     },
@@ -89,7 +88,7 @@
       "title": "答案",
       "summary": "展开查看一句参考答案",
       "items": [
-        "I’d appreciate it if you could confirm the arrangement in writing. 背诵时先记四步：问题 → 请求 → 备选方案 → 确认。"
+        "I’d be happy to accept this room, provided (that) breakfast is included."
       ]
     }
   ]
