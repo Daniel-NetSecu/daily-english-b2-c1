@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-11",
+  "slug": "site-housekeeping-at-the-end-of-a-job",
+  "theme": "工作英语：工程收工整理与现场交接",
+  "title": "Site Housekeeping at the End of a Job",
+  "subtitle": "工完料尽是材料清理归整，不是强行用光或丢弃可用材料。3段正文（分别108、107、109词），两天分段背诵；约10分钟包含朗读、理解与背诵练习。",
+  "level": "B2–C1",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {
+          "term": "account for",
+          "part": "phr.",
+          "meaning": "清点核对；说明去向",
+          "example": "We need to account for every tool before leaving."
+        },
+        {
+          "term": "designated storage area",
+          "part": "phr.",
+          "meaning": "指定存放区",
+          "example": "Put the usable steel in the designated storage area."
+        },
+        {
+          "term": "metal offcuts",
+          "part": "phr.",
+          "meaning": "金属边角料",
+          "example": "Keep metal offcuts separate from general waste."
+        },
+        {
+          "term": "carry out a final walk-through",
+          "part": "phr.",
+          "meaning": "进行最后一次现场巡查",
+          "example": "Let’s carry out a final walk-through before handing over."
+        },
+        {
+          "term": "handover log",
+          "part": "phr.",
+          "meaning": "交接记录",
+          "example": "Record any outstanding issues in the handover log."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文 · 两天背诵版",
+      "heading": "Leave the Site Ready for the Next Team",
+      "paragraphs": [
+        "As the crew finishes installing a pipe support, Maya notices several unused brackets beside the workbench. “Before we leave, let’s account for the remaining materials,” she says. A new colleague asks whether everything should go into the skip. “No. Finishing the job means clearing and organising materials, not throwing away anything useful,” Maya explains. Together, they count the spare brackets and return them to the store, recording the quantity. Longer pieces of usable steel go to the designated storage area with clear labels. They separate metal offcuts from general waste and place each in the appropriate container. Nothing reusable is discarded simply to make the site look empty.",
+        "Next, Maya checks the tool list while Daniel gathers the equipment. One socket is missing, so they pause rather than sign off an incomplete count. Daniel finds it behind the workbench and returns it to its labelled slot. “That accounts for every item,” he says. They put the tools back in their assigned places, arranging them neatly so the next crew can spot anything missing. Then they sweep the work area, collect packaging, and dispose of rubbish in the designated bins. “Could you check the access route?” Maya asks. Daniel removes an empty box from the walkway and confirms that the route to the exit is clear.",
+        "Before handing over, Maya and Daniel carry out a final walk-through with the supervisor. They check beneath the bench, around the storage area, and along the access route. “The installation is complete,” Maya reports. “We’ve returned the spare brackets to the store and labelled the remaining steel in the designated area. The waste has been sorted, all tools have been accounted for, and the work area has been swept.” The supervisor asks whether anything needs attention. “One storage label is fading. I’ve noted it in the handover log for replacement tomorrow.” He acknowledges the note. A clear handover, Maya thinks, leaves the next team with facts rather than assumptions."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar & Patterns",
+      "title": "语法与句型",
+      "items": [
+        {
+          "pattern": "现在完成时的被动语态：has/have been + 过去分词",
+          "explanation": "汇报已经完成、且结果与当前交接有关的工作。主语是被处理的事物：单数或不可数名词用 has，复数用 have；不必逐一强调执行人。",
+          "example": "The waste has been sorted, and all tools have been accounted for."
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Quick Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "替换应用",
+          "question": "仿照 The waste has been sorted，把主语和动作替换为 all tools / return to their assigned places，向主管汇报“所有工具均已归位”。"
+        },
+        {
+          "kind": "两天背诵",
+          "question": "第1天：背第1段和第2段前半（至 labelled slot）。第2天：背剩余内容并串讲全文：材料归整 → 工具与卫生 → 巡查交接。"
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Check Your Work",
+      "title": "答案",
+      "summary": "展开查看一句参考答案",
+      "items": [
+        "All tools have been returned to their assigned places."
+      ]
+    }
+  ]
+}
