@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-14",
+  "slug": "returning-a-backpack-with-a-faulty-zip",
+  "theme": "生活英语：说明商品瑕疵与办理退款",
+  "title": "Returning a Backpack with a Faulty Zip",
+  "subtitle": "3段正文（分别105、107、108词），围绕退货、确认退款与保留凭据。约10分钟含朗读、理解与背诵练习；文中退款安排仅为故事中店员确认的处理方式。",
+  "level": "B2–C1",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {
+          "term": "keep getting stuck",
+          "part": "phr.",
+          "meaning": "总是卡住",
+          "example": "The zip keeps getting stuck near the corner."
+        },
+        {
+          "term": "exchange A for B",
+          "part": "phr.",
+          "meaning": "把 A 换成 B",
+          "example": "Could I exchange this bag for a different model?"
+        },
+        {
+          "term": "get a refund",
+          "part": "phr.",
+          "meaning": "获得退款",
+          "example": "I’d like to get a refund for this faulty bag."
+        },
+        {
+          "term": "original payment method",
+          "part": "phr.",
+          "meaning": "原付款方式",
+          "example": "The money goes back to your original payment method."
+        },
+        {
+          "term": "show up in my account",
+          "part": "phr.",
+          "meaning": "到账；在账户中显示",
+          "example": "When will the refund show up in my account?"
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文 · 两天背诵版",
+      "heading": "A Clear Request at the Customer Service Desk",
+      "paragraphs": [
+        "On Saturday morning, Nina takes a new backpack back to the shop because its zip keeps getting stuck. She bought it for a weekend trip, but she cannot close the main compartment without pulling hard. Before leaving home, she empties the bag, finds the receipt, and takes a photo of the problem. At the customer service desk, she says, “I bought this here yesterday, and the zip doesn't seem to work properly. Could you take a look?” The assistant asks whether she wants a different colour. “The colour is fine,” Nina explains. “I'm bringing it back because it's faulty, not because I've changed my mind.”",
+        "The assistant examines the zip and offers to exchange the backpack for the same model. “I'd rather get a refund than risk having the same problem on my trip,” Nina replies. “Would that be possible?” He checks the shop's policy and confirms that he can arrange a refund for this faulty bag. Nina then asks whether she will receive cash or have the money returned to her card. “It goes back to your original payment method,” he explains. “Do you have the card you used?” She hands it over and checks the amount on the screen before confirming. There is no need to choose another item immediately.",
+        "Once the return is processed, the assistant gives Nina a refund receipt. “How long should it take for the money to show up in my account?” she asks. He says it should appear within five working days and writes a reference number on the receipt. “If it hasn't arrived by then, please contact us with this number.” Nina puts the receipt in her wallet and takes a photo of it in case the paper gets lost. Before leaving, she repeats the arrangement: “So the full amount is going back to my card, and I should keep this receipt until it arrives.” The assistant confirms, and she thanks him."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar & Patterns",
+      "title": "语法与句型",
+      "items": [
+        {
+          "pattern": "would rather + 动词原形 + than + 动词原形",
+          "explanation": "表示“宁愿……而不愿……”，用于明确但礼貌地说明偏好。I’d = I would；rather 后不加 to，两边动词形式保持平行。",
+          "example": "I’d rather get a refund than exchange the bag."
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Quick Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "替换应用",
+          "question": "仿照 I’d rather get a refund than exchange the bag，把两个选择替换为换成小一号 / 留着这个，表达“我宁愿换成小一号，也不愿留着这个”。"
+        },
+        {
+          "kind": "两天背诵",
+          "question": "第1天：背第1段和第2段前半（至 this faulty bag）。第2天：背其余内容，按“说明问题 → 表达选择 → 确认到账”复述。"
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Check Your Work",
+      "title": "答案",
+      "summary": "展开查看一句参考答案",
+      "items": [
+        "I’d rather exchange it for a smaller size than keep this one."
+      ]
+    }
+  ]
+}
