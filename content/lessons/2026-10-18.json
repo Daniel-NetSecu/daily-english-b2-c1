@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-18",
+  "slug": "following-up-on-a-delayed-motor-delivery",
+  "theme": "工作英语：向供应商催交货并确认到货承诺",
+  "title": "Following Up on a Delayed Motor Delivery",
+  "subtitle": "3段正文（分别107、110、111词），区分发货与到货，确认时间、费用及后续行动。约10分钟含朗读、理解与背诵；两天分段完成。",
+  "level": "B2–C1",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {
+          "term": "follow up on",
+          "part": "phr.",
+          "meaning": "跟进；追问进展",
+          "example": "I'm following up on our purchase order."
+        },
+        {
+          "term": "dispatch date",
+          "part": "phr.",
+          "meaning": "发货日期",
+          "example": "Could you confirm the dispatch date?"
+        },
+        {
+          "term": "bring the delivery forward",
+          "part": "phr.",
+          "meaning": "提前交货",
+          "example": "Could you bring the delivery forward to Tuesday?"
+        },
+        {
+          "term": "additional charge",
+          "part": "phr.",
+          "meaning": "额外费用",
+          "example": "Would an earlier collection involve an additional charge?"
+        },
+        {
+          "term": "flag the delay",
+          "part": "phr.",
+          "meaning": "及时提醒延误",
+          "example": "Please flag the delay before it affects our schedule."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文 · 两天背诵版",
+      "heading": "A Delivery Date We Can Plan Around",
+      "paragraphs": [
+        "On Monday morning, Elena checks the delivery schedule for a mine workshop and notices that a replacement motor has not arrived. The supplier promised delivery last Friday, but the tracking page still shows no collection. Before calling, she checks the purchase order, part number, and agreed delivery address. She also asks the maintenance planner when the motor is actually needed. “Thursday morning is our latest acceptable arrival time,” he says. Elena writes that down so she can explain the impact without exaggerating. She wants a reliable commitment, not another vague assurance that the order is being handled. With the documents ready, she calls the supplier's coordinator, James.",
+        "“I'm following up on our purchase order for the replacement motor,” Elena begins. “Could you confirm whether it has been dispatched?” James apologises and explains that the motor is ready, but the carrier missed the collection. “We expect it to leave tomorrow.” Elena pauses. “Does that mean dispatch tomorrow, or delivery to our site tomorrow? We need to distinguish between the two.” James checks with logistics and gives an estimated arrival date of Wednesday. “Could you bring the delivery forward if an earlier collection becomes available?” she asks. “Please let me know whether that would involve an additional charge before arranging it. I would need approval for any extra cost.”",
+        "After the call, Elena sends a short email to confirm the arrangement. “As discussed, please confirm the dispatch date, expected arrival date, and any additional charges in writing. If the motor cannot reach our site by Thursday morning, please flag the delay immediately so we can revise the maintenance schedule.” James replies with the carrier's collection booking and promises to send the tracking details once the shipment leaves. Elena updates the planner, carefully describing Wednesday as an estimate rather than a guarantee. She sets a reminder to check the tracking the next afternoon. Following up, she realises, means turning an uncertain promise into specific actions, named contacts, and a clear deadline."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar & Patterns",
+      "title": "语法与句型",
+      "items": [
+        {
+          "pattern": "Could you confirm whether + 主语 + 谓语...?",
+          "explanation": "用 whether 引导间接疑问句，礼貌核实“是否”。从句用陈述语序，不再倒装；适合电话跟进和邮件确认。",
+          "example": "Could you confirm whether it has been dispatched?"
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Quick Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "替换应用",
+          "question": "将 Could you confirm whether it has been dispatched? 的核实内容替换为“提前交货是否会产生额外费用”，写一句询问供应商的话。"
+        },
+        {
+          "kind": "两天背诵",
+          "question": "第1天：背第1段及第2段前半（至 between the two）。第2天：背其余内容，按“查订单 → 问时间费用 → 邮件确认”复述。"
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Check Your Work",
+      "title": "答案",
+      "summary": "展开查看一句参考答案",
+      "items": [
+        "Could you confirm whether an earlier delivery would involve an additional charge?"
+      ]
+    }
+  ]
+}
