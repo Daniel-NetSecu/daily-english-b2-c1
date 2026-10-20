@@ -2,8 +2,8 @@
   "date": "2026-10-20",
   "slug": "briefing-the-team-on-an-inspection-report",
   "theme": "工作英语：读懂检查报告并简短汇报",
-  "title": "Briefing the Team on an Inspection Report",
-  "subtitle": "3段正文（分别106、106、106词）：区分已知事实、未查区域与待办事项。约10分钟含朗读、理解与背诵练习；两天分段完成。",
+  "title": "The Danger of a Quick Conclusion",
+  "subtitle": "先说明原由，再用具体事例展开：3段正文（104、105、107词）。原创工作英语；约10分钟含朗读、理解与背诵。",
   "level": "B2–C1",
   "duration": "约 10 分钟",
   "sections": [
@@ -13,34 +13,34 @@
       "title": "生词和重点词语",
       "items": [
         {
-          "term": "localised corrosion",
+          "term": "jump to conclusions",
           "part": "phr.",
-          "meaning": "局部腐蚀",
-          "example": "The inspection found localised corrosion around the fixings."
+          "meaning": "草率下结论",
+          "example": "Do not jump to conclusions before checking the evidence."
+        },
+        {
+          "term": "confirmed findings",
+          "part": "phr.",
+          "meaning": "已证实的发现／结果",
+          "example": "Separate confirmed findings from unanswered questions."
         },
         {
           "term": "rule out",
           "part": "phr.",
           "meaning": "排除某种可能",
-          "example": "We cannot rule out damage in the inaccessible section."
+          "example": "We cannot rule out further damage."
         },
         {
-          "term": "scope of work",
+          "term": "temporary restrictions",
           "part": "phr.",
-          "meaning": "工作范围",
-          "example": "We need to agree on the scope of work before requesting quotations."
+          "meaning": "临时限制措施",
+          "example": "Are any temporary restrictions required?"
         },
         {
-          "term": "outstanding questions",
+          "term": "commit resources",
           "part": "phr.",
-          "meaning": "尚待解决的问题",
-          "example": "Please list the outstanding questions in your update."
-        },
-        {
-          "term": "call for",
-          "part": "phr.",
-          "meaning": "需要；要求采取",
-          "example": "These findings may call for a further assessment."
+          "meaning": "投入资源",
+          "example": "Clarify the scope before committing resources."
         }
       ]
     },
@@ -48,11 +48,11 @@
       "type": "reading",
       "label": "Reading",
       "title": "英语短文 · 两天背诵版",
-      "heading": "What the Report Does—and Does Not—Tell Us",
+      "heading": "The Danger of a Quick Conclusion",
       "paragraphs": [
-        "Before the morning meeting at a mine, Daniel reads an inspection report on the workshop roof. The summary mentions corrosion around several fixings, but it does not say that the entire roof needs replacing. He highlights the affected locations and checks which photographs support each finding. One section is marked “not inspected” because access was restricted. Daniel writes a reminder beside it: missing information is not evidence that everything is sound. When his manager asks for a quick update, he prepares three points: what the inspector observed, what remains uncertain, and what decision the team needs to make. He leaves detailed measurements in the attached report.",
-        "“The main finding is localised corrosion around the fixings above the eastern bay,” Daniel tells the team. “The report recommends a closer assessment before deciding on repairs.” His manager asks whether the damage extends across the building. “Based on the areas inspected, it appears to be concentrated in that bay. However, we cannot rule out similar damage in the section that was inaccessible.” A colleague suggests ordering replacement sheets immediately. Daniel responds, “That may be necessary, but the report does not establish the full scope of work yet. Could we ask the inspector to clarify what further access is needed before we commit to a purchase?”",
-        "After the meeting, Daniel sends the inspector a concise email. “Could you clarify which areas still require inspection and whether the current findings call for any immediate restrictions? Please also outline the information needed to define the repair scope.” He attaches the marked photographs so they are discussing the same locations. In his update to the manager, he separates confirmed findings from outstanding questions and records who will follow up on each item. He avoids promising a repair date before the assessment is complete. His final sentence is simple: “Once we have the additional findings, we can agree on the next steps with the responsible engineer.”"
+        "People often expect a technical report to provide a simple answer: repair the equipment, replace it, or leave it alone. In practice, the evidence is rarely so complete. An inspection records what could be observed under particular conditions, and its conclusions must be understood within those limits. Trouble begins when a brief summary turns a possibility into a certainty, or treats an unexamined area as a safe one. This is why a useful briefing should distinguish confirmed findings from unanswered questions. Its purpose is not to make uncertainty disappear, but to explain what further information is needed before a sound decision can be made.",
+        "A recent incident at a mine workshop illustrated this point. Daniel was asked to summarise a report about corrosion around several roof fixings. Having read only the opening paragraph, a colleague suggested replacing every roof sheet. Another argued that the damage was merely cosmetic. Daniel noticed, however, that neither conclusion was supported by the report. “The corrosion appears to be localised,” he told the manager, “but one section was inaccessible, so we cannot rule out further damage.” Instead of recommending an immediate purchase, he asked the inspector to clarify the scope of the findings and whether any temporary restrictions were required while the assessment continued.",
+        "The inspector replied that the unexamined section required access from a different position. Following the additional inspection, the responsible engineer recommended a limited repair rather than complete replacement. Daniel then prepared a short update separating the confirmed damage, the agreed work, and the questions that still needed answers. The manager thanked him for preventing an unnecessary order without dismissing a genuine concern. What had first appeared to be a choice between doing everything and doing nothing had become a specific plan based on evidence. Daniel had not solved the engineering problem himself; he had ensured that the people responsible were answering the right questions before committing resources."
       ]
     },
     {
@@ -61,9 +61,9 @@
       "title": "语法与句型",
       "items": [
         {
-          "pattern": "Based on + 名词短语, it appears to be + 补语",
-          "explanation": "先限定判断依据，再用 appears to be 表达审慎推断，避免把有限观察说成确定结论。需要时用 However 补充证据范围之外的未知情况。",
-          "example": "Based on the areas inspected, it appears to be concentrated in that bay."
+          "pattern": "Having + 过去分词, 主语 + 谓语…",
+          "explanation": "完成式分词短语表示该动作先于主句动作发生。分词动作与主句动作的执行者必须一致。文中先读开头段落，再提出更换建议。",
+          "example": "Having read only the opening paragraph, a colleague suggested replacing every roof sheet."
         }
       ]
     },
@@ -73,12 +73,12 @@
       "title": "快速练习",
       "items": [
         {
-          "kind": "替换应用",
-          "question": "将例句依据替换为“目前可用的照片”，推断替换为“损坏似乎仅限于东侧区域”，用 Based on..., the damage appears to be... 写一句汇报。提示：be limited to。"
+          "kind": "句式练习",
+          "question": "用 Having + 过去分词合并：Daniel checked the photographs. Then he contacted the inspector."
         },
         {
           "kind": "两天背诵",
-          "question": "第1天：背第1段及第2段前半（至 inaccessible）。第2天：背其余内容，按“读报告 → 讲证据与未知 → 邮件跟进”复述；回忆上期 follow up on 的用法。"
+          "question": "第1天背首段及第二段前半；第2天背其余内容，按“为何不能草率下结论 → 具体报告引发分歧 → 补充检查后作出决定”复述。"
         }
       ]
     },
@@ -88,7 +88,7 @@
       "title": "答案",
       "summary": "展开查看一句参考答案",
       "items": [
-        "Based on the photographs currently available, the damage appears to be limited to the eastern bay."
+        "Having checked the photographs, Daniel contacted the inspector. 两个动作的执行者均为 Daniel；检查照片先于联系检查员。"
       ]
     }
   ]
