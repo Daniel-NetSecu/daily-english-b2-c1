@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-20",
+  "slug": "briefing-the-team-on-an-inspection-report",
+  "theme": "工作英语：读懂检查报告并简短汇报",
+  "title": "Briefing the Team on an Inspection Report",
+  "subtitle": "3段正文（分别106、106、106词）：区分已知事实、未查区域与待办事项。约10分钟含朗读、理解与背诵练习；两天分段完成。",
+  "level": "B2–C1",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {
+          "term": "localised corrosion",
+          "part": "phr.",
+          "meaning": "局部腐蚀",
+          "example": "The inspection found localised corrosion around the fixings."
+        },
+        {
+          "term": "rule out",
+          "part": "phr.",
+          "meaning": "排除某种可能",
+          "example": "We cannot rule out damage in the inaccessible section."
+        },
+        {
+          "term": "scope of work",
+          "part": "phr.",
+          "meaning": "工作范围",
+          "example": "We need to agree on the scope of work before requesting quotations."
+        },
+        {
+          "term": "outstanding questions",
+          "part": "phr.",
+          "meaning": "尚待解决的问题",
+          "example": "Please list the outstanding questions in your update."
+        },
+        {
+          "term": "call for",
+          "part": "phr.",
+          "meaning": "需要；要求采取",
+          "example": "These findings may call for a further assessment."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文 · 两天背诵版",
+      "heading": "What the Report Does—and Does Not—Tell Us",
+      "paragraphs": [
+        "Before the morning meeting at a mine, Daniel reads an inspection report on the workshop roof. The summary mentions corrosion around several fixings, but it does not say that the entire roof needs replacing. He highlights the affected locations and checks which photographs support each finding. One section is marked “not inspected” because access was restricted. Daniel writes a reminder beside it: missing information is not evidence that everything is sound. When his manager asks for a quick update, he prepares three points: what the inspector observed, what remains uncertain, and what decision the team needs to make. He leaves detailed measurements in the attached report.",
+        "“The main finding is localised corrosion around the fixings above the eastern bay,” Daniel tells the team. “The report recommends a closer assessment before deciding on repairs.” His manager asks whether the damage extends across the building. “Based on the areas inspected, it appears to be concentrated in that bay. However, we cannot rule out similar damage in the section that was inaccessible.” A colleague suggests ordering replacement sheets immediately. Daniel responds, “That may be necessary, but the report does not establish the full scope of work yet. Could we ask the inspector to clarify what further access is needed before we commit to a purchase?”",
+        "After the meeting, Daniel sends the inspector a concise email. “Could you clarify which areas still require inspection and whether the current findings call for any immediate restrictions? Please also outline the information needed to define the repair scope.” He attaches the marked photographs so they are discussing the same locations. In his update to the manager, he separates confirmed findings from outstanding questions and records who will follow up on each item. He avoids promising a repair date before the assessment is complete. His final sentence is simple: “Once we have the additional findings, we can agree on the next steps with the responsible engineer.”"
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar & Patterns",
+      "title": "语法与句型",
+      "items": [
+        {
+          "pattern": "Based on + 名词短语, it appears to be + 补语",
+          "explanation": "先限定判断依据，再用 appears to be 表达审慎推断，避免把有限观察说成确定结论。需要时用 However 补充证据范围之外的未知情况。",
+          "example": "Based on the areas inspected, it appears to be concentrated in that bay."
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Quick Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "替换应用",
+          "question": "将例句依据替换为“目前可用的照片”，推断替换为“损坏似乎仅限于东侧区域”，用 Based on..., the damage appears to be... 写一句汇报。提示：be limited to。"
+        },
+        {
+          "kind": "两天背诵",
+          "question": "第1天：背第1段及第2段前半（至 inaccessible）。第2天：背其余内容，按“读报告 → 讲证据与未知 → 邮件跟进”复述；回忆上期 follow up on 的用法。"
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Check Your Work",
+      "title": "答案",
+      "summary": "展开查看一句参考答案",
+      "items": [
+        "Based on the photographs currently available, the damage appears to be limited to the eastern bay."
+      ]
+    }
+  ]
+}
