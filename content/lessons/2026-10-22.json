@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-22",
+  "slug": "when-a-delivery-arrives-at-the-wrong-time",
+  "theme": "生活英语：不在家时协商快递改约",
+  "title": "When a Delivery Arrives at the Wrong Time",
+  "subtitle": "生活英语加推：先说明原由，再举例。3段正文（108、114、107词），约10分钟含朗读、理解与背诵；不改变固定推送安排。",
+  "level": "B2–C1",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {
+          "term": "reschedule the delivery",
+          "part": "phr.",
+          "meaning": "重新安排配送时间",
+          "example": "Could we reschedule the delivery for tomorrow?"
+        },
+        {
+          "term": "require a signature",
+          "part": "phr.",
+          "meaning": "需要签收",
+          "example": "This parcel requires a signature."
+        },
+        {
+          "term": "collection point",
+          "part": "phr.",
+          "meaning": "自提点",
+          "example": "Can I collect it from a collection point?"
+        },
+        {
+          "term": "collection deadline",
+          "part": "phr.",
+          "meaning": "最晚取件时间",
+          "example": "What is the collection deadline?"
+        },
+        {
+          "term": "reference number",
+          "part": "phr.",
+          "meaning": "查询编号",
+          "example": "Please keep the reference number."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文 · 两天背诵版",
+      "heading": "When a Delivery Arrives at the Wrong Time",
+      "paragraphs": [
+        "Home delivery is convenient until a parcel arrives when nobody is there to receive it. A message saying that a driver is nearby may seem helpful, but it leaves little time to change plans. Problems often arise because the sender, the driver, and the customer each assume that someone else has confirmed the arrangements. Clear communication can prevent a missed delivery from becoming a lost parcel. Instead of simply asking a driver to come later, it is better to explain the difficulty, check which alternatives are available, and agree on a specific next step. A convenient solution is only useful when everyone understands exactly what has been agreed.",
+        "Last week, Anna received a call while she was shopping across town. Her parcel required a signature, but the driver was already outside her building. “I am afraid I will not be home for another hour,” she explained. “Would it be possible to reschedule the delivery for tomorrow morning?” The driver could not promise a particular time and suggested leaving it with a neighbour. Anna declined because she had not asked anyone to accept it. “Could you take it to a collection point instead?” she asked. The driver told her to contact customer service, since he could not change the destination without authorisation. She thanked him and called the number shown in her order.",
+        "The customer service agent offered collection from a nearby shop the following afternoon. Before agreeing, Anna checked the opening hours, the collection deadline, and what identification she would need. “Please send me the address and collection instructions so that I can check them before I leave,” she said. The agent explained that she should wait for a notification confirming that the parcel was ready. Anna saved the reference number and resisted the temptation to visit the shop immediately. When the notification arrived the next day, she collected the parcel without difficulty. The original delivery had failed, but a few precise questions had prevented a second unnecessary journey."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar & Patterns",
+      "title": "语法与句型",
+      "items": [
+        {
+          "pattern": "主句 + so that + 主语 + can/could + 动词原形",
+          "explanation": "so that 引导目的状语从句，表示“以便……”。说明提出请求的目的，让对方更容易理解。",
+          "example": "Please send me the address so that I can check it before I leave."
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Quick Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "替换练习",
+          "question": "用 so that 表达：请把查询编号发给我，以便我能追踪包裹。提示：track my parcel。"
+        },
+        {
+          "kind": "两天背诵",
+          "question": "第1天背首段及第2段前半；第2天背其余内容，再按“为何要确认 → 电话协商 → 核实并取件”复述。"
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Check Your Work",
+      "title": "答案",
+      "summary": "展开查看一句参考答案",
+      "items": [
+        "Please send me the reference number so that I can track my parcel."
+      ]
+    }
+  ]
+}
