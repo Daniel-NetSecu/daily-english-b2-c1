@@ -35,7 +35,7 @@ for (const {file, dir, historical} of sources) {
   const theme = lesson.theme.normalize('NFKC').trim().replace(/\s+/gu, ' ').toLocaleLowerCase('en');
   if (!historical && themes.has(theme)) throw new Error(file + ': duplicate theme: ' + lesson.theme);
   if (!historical) themes.add(theme);
-  if (lesson.duration !== '约 10 分钟' || lesson.level !== 'B2–C1') throw new Error(file + ': metadata must use B2–C1 and 约 10 分钟.');
+  if (lesson.duration !== '约 10 分钟' || !['B2–C1', 'C1–C2'].includes(lesson.level)) throw new Error(file + ': metadata must use B2–C1 or C1–C2 and 约 10 分钟.');
   if (file !== (historical ? `${lesson.date}--${lesson.slug}.json` : `${lesson.date}.json`)) throw new Error(`${file}: filename must match lesson date.`);
   const order = lesson.sections?.map((section) => section.type) ?? [];
   if (order.join(',') !== expectedOrder.join(',')) {
@@ -82,7 +82,7 @@ function shell({ title, description, prefix, current, main, bodyClass = '' }) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="${escapeHtml(description)}">
-  <title>${escapeHtml(title)} · Daily English B2–C1</title>
+  <title>${escapeHtml(title)} · Daily English</title>
   <link rel="stylesheet" href="${prefix}styles.css">
 </head>
 <body class="${escapeHtml(bodyClass)}">
@@ -150,7 +150,7 @@ await fs.rm(archiveDir, { recursive: true, force: true });
 await fs.mkdir(archiveDir, { recursive: true });
 
 await fs.writeFile(path.join(projectRoot, 'index.html'), lessonPage(latestLesson, '', true));
-await fs.writeFile(path.join(archiveDir, 'index.html'), listingPage({ heading: '课程历史', intro: '按年、月和日期浏览所有 B2–C1 英语微课。', selectedLessons: lessons, prefix: '../', current: { archive: true } }));
+await fs.writeFile(path.join(archiveDir, 'index.html'), listingPage({ heading: '课程历史', intro: '按年、月和日期浏览英语微课，难度以各课标注为准。', selectedLessons: lessons, prefix: '../', current: { archive: true } }));
 
 for (const [year, months] of byYear) {
   const yearLessons = [...months.values()].flat();

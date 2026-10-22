@@ -3,8 +3,8 @@
   "slug": "when-a-delivery-arrives-at-the-wrong-time",
   "theme": "生活英语：不在家时协商快递改约",
   "title": "When a Delivery Arrives at the Wrong Time",
-  "subtitle": "生活英语加推：先说明原由，再举例。3段正文（108、114、107词），约10分钟含朗读、理解与背诵；不改变固定推送安排。",
-  "level": "B2–C1",
+  "subtitle": "C1–C2进阶版：先阐明原由，再用实例展开。3段正文（109、112、107词）；约10分钟含朗读、理解与背诵。",
+  "level": "C1–C2",
   "duration": "约 10 分钟",
   "sections": [
     {
@@ -13,34 +13,34 @@
       "title": "生词和重点词语",
       "items": [
         {
-          "term": "reschedule the delivery",
+          "term": "presume on someone",
           "part": "phr.",
-          "meaning": "重新安排配送时间",
-          "example": "Could we reschedule the delivery for tomorrow?"
+          "meaning": "擅自指望或利用他人的好意",
+          "example": "I would rather not presume on my neighbour."
         },
         {
-          "term": "require a signature",
+          "term": "beyond one’s remit",
           "part": "phr.",
-          "meaning": "需要签收",
-          "example": "This parcel requires a signature."
+          "meaning": "超出某人的职责或权限范围",
+          "example": "That promise would be beyond his remit."
         },
         {
-          "term": "collection point",
+          "term": "secure a concession",
           "part": "phr.",
-          "meaning": "自提点",
-          "example": "Can I collect it from a collection point?"
+          "meaning": "争取到让步",
+          "example": "She was not simply trying to secure a concession."
         },
         {
-          "term": "collection deadline",
+          "term": "subject to confirmation",
           "part": "phr.",
-          "meaning": "最晚取件时间",
-          "example": "What is the collection deadline?"
+          "meaning": "须经确认／以确认为前提",
+          "example": "Collection is subject to confirmation."
         },
         {
-          "term": "reference number",
+          "term": "make the conditions explicit",
           "part": "phr.",
-          "meaning": "查询编号",
-          "example": "Please keep the reference number."
+          "meaning": "把条件说清楚",
+          "example": "Please make the conditions explicit before I agree."
         }
       ]
     },
@@ -50,9 +50,9 @@
       "title": "英语短文 · 两天背诵版",
       "heading": "When a Delivery Arrives at the Wrong Time",
       "paragraphs": [
-        "Home delivery is convenient until a parcel arrives when nobody is there to receive it. A message saying that a driver is nearby may seem helpful, but it leaves little time to change plans. Problems often arise because the sender, the driver, and the customer each assume that someone else has confirmed the arrangements. Clear communication can prevent a missed delivery from becoming a lost parcel. Instead of simply asking a driver to come later, it is better to explain the difficulty, check which alternatives are available, and agree on a specific next step. A convenient solution is only useful when everyone understands exactly what has been agreed.",
-        "Last week, Anna received a call while she was shopping across town. Her parcel required a signature, but the driver was already outside her building. “I am afraid I will not be home for another hour,” she explained. “Would it be possible to reschedule the delivery for tomorrow morning?” The driver could not promise a particular time and suggested leaving it with a neighbour. Anna declined because she had not asked anyone to accept it. “Could you take it to a collection point instead?” she asked. The driver told her to contact customer service, since he could not change the destination without authorisation. She thanked him and called the number shown in her order.",
-        "The customer service agent offered collection from a nearby shop the following afternoon. Before agreeing, Anna checked the opening hours, the collection deadline, and what identification she would need. “Please send me the address and collection instructions so that I can check them before I leave,” she said. The agent explained that she should wait for a notification confirming that the parcel was ready. Anna saved the reference number and resisted the temptation to visit the shop immediately. When the notification arrived the next day, she collected the parcel without difficulty. The original delivery had failed, but a few precise questions had prevented a second unnecessary journey."
+        "The convenience of home delivery rests on an assumption that is seldom examined: someone will be available precisely when the courier arrives. Once that assumption fails, an apparently straightforward service becomes a negotiation over timing, responsibility, and consent. The difficulty is not necessarily unwillingness to help, but the gap between what one person proposes and what another is authorised to arrange. A neighbour may be nearby without having agreed to accept a parcel; a collection point may exist without being able to release it immediately. Effective communication therefore requires more than politeness. It means distinguishing a tentative suggestion from a confirmed arrangement, and establishing whose agreement is still outstanding.",
+        "Anna discovered this distinction when a courier called while she was across town. Unable to return promptly, she asked whether delivery could be deferred until the following morning. “I cannot guarantee a time slot,” he replied, offering to leave the parcel next door instead. “I would rather not presume on my neighbour,” she said. “Could you clarify whether collection from a local shop is an option?” The courier explained that any diversion required authorisation from customer service. Rather than press him for a promise beyond his remit, Anna requested the appropriate contact details. Her aim was not to secure an immediate concession, but to identify an alternative that could actually be implemented.",
+        "The agent subsequently arranged collection for the next afternoon, subject to confirmation that the parcel had reached the shop. Anna checked the opening hours, identification requirements, and deadline before accepting. “Am I right in understanding that I should wait for the collection notification, rather than rely on the estimated arrival time?” she asked. The agent confirmed this and emailed the instructions. Had Anna treated the estimate as a guarantee, she might have made a needless journey. Instead, she collected the parcel after receiving the notification. What resolved the inconvenience was neither persistence alone nor elaborate language, but her insistence on making the conditions of the arrangement explicit."
       ]
     },
     {
@@ -61,9 +61,9 @@
       "title": "语法与句型",
       "items": [
         {
-          "pattern": "主句 + so that + 主语 + can/could + 动词原形",
-          "explanation": "so that 引导目的状语从句，表示“以便……”。说明提出请求的目的，让对方更容易理解。",
-          "example": "Please send me the address so that I can check it before I leave."
+          "pattern": "Had + 主语 + 过去分词, 主语 + might/would have + 过去分词",
+          "explanation": "过去反事实条件句的倒装形式：省略 if，将 had 提至主语前。表示过去并未发生的条件及其可能结果。might have 强调“本可能”，不是必然。",
+          "example": "Had Anna treated the estimate as a guarantee, she might have made a needless journey."
         }
       ]
     },
@@ -73,12 +73,12 @@
       "title": "快速练习",
       "items": [
         {
-          "kind": "替换练习",
-          "question": "用 so that 表达：请把查询编号发给我，以便我能追踪包裹。提示：track my parcel。"
+          "kind": "句式练习",
+          "question": "改写为倒装条件句：If I had left without checking, I might have wasted a journey."
         },
         {
           "kind": "两天背诵",
-          "question": "第1天背首段及第2段前半；第2天背其余内容，再按“为何要确认 → 电话协商 → 核实并取件”复述。"
+          "question": "第1天背首段及第2段前半；第2天背其余内容，按“隐含假设 → 权限与协商 → 明确条件”复述。重点区分 estimate 和 guarantee。"
         }
       ]
     },
@@ -88,7 +88,7 @@
       "title": "答案",
       "summary": "展开查看一句参考答案",
       "items": [
-        "Please send me the reference number so that I can track my parcel."
+        "Had I left without checking, I might have wasted a journey. 省略 if 后将 had 前置，主句形式不变。"
       ]
     }
   ]

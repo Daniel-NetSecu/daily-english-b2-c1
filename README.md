@@ -28,7 +28,7 @@ The site has no package install, remote font, CDN, tracker, client-side framewor
 1. Copy an existing file in `content/lessons/` to `content/lessons/YYYY-MM-DD.json`.
 2. Set `date` to the same `YYYY-MM-DD` value as the filename.
 3. Keep exactly five `sections` in this order: `vocabulary`, `reading`, `grammar`, `practice`, `answers`.
-4. Use a unique theme (normalized Unicode, whitespace and case are checked), level `B2–C1`, and duration `约 10 分钟`. Dates must be real calendar dates; filenames must match. Fill the section content. Keep the answer section’s `summary` short and put each answer in `items`.
+4. Use a unique theme (normalized Unicode, whitespace and case are checked), level `C1–C2` for new lessons (`B2–C1` remains valid for historical lessons), and duration `约 10 分钟`. Dates must be real calendar dates; filenames must match. Fill the section content. Keep the answer section’s `summary` short and put each answer in `items`.
 5. Build and verify before committing.
 
 ## Build
