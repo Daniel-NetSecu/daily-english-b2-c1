@@ -1,5 +1,9 @@
 # Daily English B2–C1
 
+## OpenClaw 接入必读
+
+请先读取 [AGENTS.md — 英语课程生成、排期、发布与验收规则](AGENTS.md)。新课程为 C1–C2；每周日工作英语、周三生活英语，09:00 America/La_Paz。每次新增自动更新目录，发布后验证链接与真实目录点击。重新接入后须检查或恢复本地定时任务；仅连接 GitHub 不会自动建立推送。
+
 A dependency-free static lesson archive. Lesson content lives in JSON; a Node.js script builds the current lesson homepage plus year/month/date archive pages.
 
 ## Structure
