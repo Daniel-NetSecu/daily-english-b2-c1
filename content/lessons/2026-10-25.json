@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-25",
+  "slug": "accepting-delivery-without-closing-the-book",
+  "theme": "工作英语：有条件工程交接与验收边界",
+  "title": "Accepting Delivery Without Closing the Book",
+  "subtitle": "接收交付，不等于结清责任｜工作英语 C1–C2。正文词数：106、107、110（按空白分词）。",
+  "level": "C1–C2",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {
+          "term": "final acceptance",
+          "part": "n. phr.",
+          "meaning": "最终验收；区别于收货或接管，具体效力取决于合同。",
+          "example": "Physical possession does not necessarily constitute final acceptance."
+        },
+        {
+          "term": "surrender its leverage",
+          "part": "v. phr.",
+          "meaning": "放弃自身的谈判筹码或推动对方履约的影响力。",
+          "example": "The team avoided surrendering its leverage over the remaining tests."
+        },
+        {
+          "term": "subject to",
+          "part": "prep. phr.",
+          "meaning": "以……为条件；须经……批准。",
+          "example": "Operation remains subject to safety approval."
+        },
+        {
+          "term": "exception register",
+          "part": "n. phr.",
+          "meaning": "例外事项清单；记录未满足约定要求的事项、负责人和关闭依据。",
+          "example": "Every unresolved item belongs in the exception register."
+        },
+        {
+          "term": "residual exposure",
+          "part": "n. phr.",
+          "meaning": "剩余风险敞口；已采取措施后仍然面临的风险。",
+          "example": "The report explains our residual exposure."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文 · 两天背诵版",
+      "heading": "Accepting Delivery Without Closing the Book｜接收交付，不等于结清责任",
+      "paragraphs": [
+        "At the final project meeting, the supplier described the control system as ready for handover. Operations, however, had received neither the updated alarm register nor evidence that the backup settings had been tested. The disagreement was not really about whether the equipment worked; it concerned what accepting it would imply. A signature intended to acknowledge delivery could later be interpreted as confirmation that every contractual obligation had been met. Before discussing dates, the project manager therefore separated physical possession, permission to operate, and final acceptance. That distinction allowed the team to address immediate operational needs without inadvertently surrendering its leverage over the remaining documentation and tests.",
+        "Rather than reject the handover outright, Elena proposed a conditional arrangement with explicit boundaries. The team would take custody of the equipment, but operation would remain subject to the site's safety approval process. Each outstanding item would have a named owner, an agreed deadline, and a clearly defined method of verification. Crucially, the record would distinguish minor documentation gaps from deficiencies that could prevent safe operation. Were the supplier to miss a deadline, the matter would be escalated through the agreed contract management procedure, not resolved through informal assurances. Elena also asked the commercial lead to confirm that the wording preserved the organisation's rights under the contract.",
+        "In her follow-up report, Elena resisted the temptation to label the project simply complete or delayed. Instead, she stated what had been delivered, what remained unverified, and which decisions were still required from management. She attached the exception register and identified the evidence needed to close each item. This made the report more useful than a reassuring percentage, because readers could see both progress and residual exposure. At the next meeting, the supplier accepted the revised record after two ambiguities were clarified. The lesson was not that every handover should become a legal dispute, but that precise acceptance language protects cooperation by making expectations visible before memories and incentives diverge."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar & Patterns",
+      "title": "语法与句型",
+      "items": [
+        {
+          "pattern": "Were + 主语 + to do, 主语 + would do",
+          "explanation": "省略 if 的假设条件倒装，相当于 If the supplier were to miss…。用于较正式、较假设性的未来情景，并不表示违约已经发生。不要写成 Were the supplier would miss。",
+          "example": "Were the supplier to miss a deadline, the matter would be escalated through the agreed contract management procedure."
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Quick Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "理解题",
+          "question": "Which three concepts did the project manager separate, and why?"
+        },
+        {
+          "kind": "词汇填空",
+          "question": "Operation remains ___ ___ safety approval. The report should explain our residual ___."
+        },
+        {
+          "kind": "语法改写",
+          "question": "省略 if：If the supplier were to miss a deadline, we would escalate the matter."
+        },
+        {
+          "kind": "工作表达",
+          "question": "用40–60个英文词写交接状态更新，明确已交付内容、未完成事项和验收条件。"
+        },
+        {
+          "kind": "两天背诵",
+          "question": "第1天：朗读第1、2段，标出“接收→运行→最终验收”三种状态；背第1段及第2段前两句。第2天：复习后背余下内容，按“边界→责任→证据”复述全文，默写倒装句和5个重点表达。"
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Check Your Work",
+      "title": "答案",
+      "summary": "展开查看参考答案",
+      "items": [
+        "1. Physical possession, permission to operate, and final acceptance. Separating them prevents acknowledgement of delivery from being mistaken for confirmation that all contractual obligations have been met.",
+        "2. subject to; exposure.",
+        "3. Were the supplier to miss a deadline, we would escalate the matter.",
+        "4. The equipment has been delivered, but the updated alarm register and backup test evidence remain outstanding. We propose taking custody without granting final acceptance. Operation remains subject to safety approval. Each outstanding item requires a named owner, an agreed deadline, and documented verification before closure."
+      ]
+    }
+  ]
+}
