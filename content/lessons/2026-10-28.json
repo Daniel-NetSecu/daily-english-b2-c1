@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-28",
+  "theme": "生活英语：朋友借钱时坦诚说明能力与边界",
+  "title": "Generosity Without an Unspoken Debt",
+  "subtitle": "善意，不必变成说不出口的债",
+  "slug": "generosity-without-an-unspoken-debt",
+  "level": "C1–C2",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {
+          "term": "an emergency cushion",
+          "part": "n. phr.",
+          "meaning": "应急储备；用来应付突发开支的资金缓冲。",
+          "example": "Lending the full amount would leave me without an emergency cushion."
+        },
+        {
+          "term": "equate A with B",
+          "part": "v. phr.",
+          "meaning": "把A等同于B；常用于质疑两者必然相等的看法。",
+          "example": "We should not equate generosity with immediate agreement."
+        },
+        {
+          "term": "acknowledge someone’s predicament",
+          "part": "v. phr.",
+          "meaning": "认可、体谅某人的困境；并不等于承诺解决问题。",
+          "example": "You can acknowledge her predicament without promising a loan."
+        },
+        {
+          "term": "an unspoken debt",
+          "part": "n. phr.",
+          "meaning": "没有明说却被感受到的债务或人情负担。",
+          "example": "Neither of us wanted an unspoken debt hanging over the friendship."
+        },
+        {
+          "term": "a source of resentment",
+          "part": "n. phr.",
+          "meaning": "引发怨气或不满的根源。",
+          "example": "Unclear expectations can become a source of resentment."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文",
+      "heading": "Generosity Without an Unspoken Debt｜空白分词：105 / 110 / 108；共323词",
+      "paragraphs": [
+        "When a friend asks to borrow money, the difficult part is often not the amount but the uncertainty surrounding it. A request described as temporary may have no clear repayment date, while an apparently casual agreement can carry expectations neither person has expressed. Lena faced this dilemma when a close friend asked her to cover a month's rent. She could afford a modest gift, but lending the full amount would leave her without an emergency cushion. Rather than equate generosity with immediate agreement, she paused to consider what she could offer without putting her own essential expenses at risk or quietly expecting gratitude in return.",
+        "Lena began by acknowledging her friend's predicament without promising a solution. 'Much as I would like to help, I cannot lend that amount,' she said. She then offered a smaller sum as a gift, making clear that repayment was neither expected nor required. This was not an attempt to dictate how her friend should manage money; it was a way of separating sympathy from financial capacity. Had she presented the gift as a loan merely to avoid embarrassment, both people might have remained unsure about their obligations. Her friend initially looked disappointed, but the clarity spared them a negotiation built on assumptions rather than an arrangement they could both accept.",
+        "Their conversation did not remove the underlying financial difficulty, and Lena resisted the urge to pretend otherwise. What it did establish was a limit that could be maintained without repeated excuses. Over coffee the following week, her friend mentioned feeling relieved that there was no unspoken debt hanging over their meetings. Lena, in turn, no longer worried that every purchase might be judged against a repayment schedule. The experience reminded her that protecting a friendship sometimes means tolerating a moment of disappointment. Being candid about what you can give is not the opposite of being generous; it can prevent generosity from becoming a source of resentment later on."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "语法与句型",
+      "items": [
+        {
+          "pattern": "Much as + 主语 + 谓语, 主句",
+          "explanation": "让步从句，意思是“尽管很……”。语气比简单的 although 更突出愿望与现实之间的反差。此处 much 修饰 would like 的程度，不表示数量。常见错误：不要再加 but；不要写成 Much as would I like（从句不倒装）。",
+          "example": "Much as I would like to help, I cannot lend that amount."
+        },
+        {
+          "pattern": "两天背诵计划",
+          "explanation": "第1天：按“请求→风险→暂停决定”背第1段，再背第2段前两句；用前三个重点表达复述自己的经济边界。第2天：先脱稿复习，再背第2段余下内容和第3段；按“明确赠与→避免误会→保护友谊”串联全文，并默写让步句。",
+          "example": "Much as I would like to help, I need to protect my emergency savings."
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "理解",
+          "question": "Why did Lena offer a smaller gift rather than lend the full amount? Give two reasons."
+        },
+        {
+          "kind": "词语",
+          "question": "Fill the gaps: Do not ___ generosity ___ immediate agreement. Unclear expectations may become a source of ___."
+        },
+        {
+          "kind": "句式改写",
+          "question": "Rewrite with Much as: Although I would really like to help, I cannot lend that amount."
+        },
+        {
+          "kind": "实际表达",
+          "question": "用40–60个英文词回复朋友的借款请求：表达理解、说明不能借出的边界，并提出自己能承担的替代帮助。不得暗示对方必须接受。"
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Answers",
+      "title": "答案",
+      "summary": "展开参考答案",
+      "items": [
+        "1. Lending the full amount would put her emergency savings at risk. A smaller gift also made it clear that repayment was not expected, avoiding uncertainty about obligations.",
+        "2. equate; with; resentment.",
+        "3. Much as I would like to help, I cannot lend that amount.",
+        "4. I am sorry you are dealing with this. Much as I would like to help, I cannot lend the full amount without using my emergency savings. I can offer a smaller gift, with no repayment expected, if that would help. Please feel free to decline."
+      ]
+    }
+  ]
+}
