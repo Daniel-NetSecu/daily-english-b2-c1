@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-03",
+  "theme": "工作英语：提前提出阻碍并协商调整截止时间",
+  "title": "Raising a Blocker and Agreeing on a Revised Deadline",
+  "subtitle": "提前说明阻碍，协商新的截止时间｜11月1日漏发课程补课；实际发布：2026年11月3日",
+  "slug": "raising-a-blocker-and-agreeing-on-a-revised-deadline",
+  "level": "B2–C1",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {
+          "term": "flag an issue",
+          "part": "phr.",
+          "meaning": "指出需要注意的问题",
+          "example": "Please flag any issue that could affect the deadline."
+        },
+        {
+          "term": "on track",
+          "part": "phr.",
+          "meaning": "进展正常；有望按计划完成",
+          "example": "The draft is on track for review this afternoon."
+        },
+        {
+          "term": "a blocker",
+          "part": "phr.",
+          "meaning": "阻碍任务继续推进的问题",
+          "example": "The missing approval is a blocker, not a minor inconvenience."
+        },
+        {
+          "term": "outstanding tasks",
+          "part": "phr.",
+          "meaning": "尚未完成的任务；此处 outstanding 不指优秀",
+          "example": "Let us list the outstanding tasks before assigning owners."
+        },
+        {
+          "term": "a revised deadline",
+          "part": "phr.",
+          "meaning": "调整后的截止时间",
+          "example": "Could you confirm the revised deadline in writing?"
+        },
+        {
+          "term": "take ownership of",
+          "part": "phr.",
+          "meaning": "承担并跟进某项工作的责任",
+          "example": "I will take ownership of checking the figures."
+        },
+        {
+          "term": "a checkpoint",
+          "part": "phr.",
+          "meaning": "约定的进度检查节点",
+          "example": "Our next checkpoint is at three this afternoon."
+        },
+        {
+          "term": "a firm commitment",
+          "part": "phr.",
+          "meaning": "明确而可靠的承诺；区别于暂定估计",
+          "example": "That date is an estimate, not a firm commitment."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文",
+      "heading": "Raising a Blocker and Agreeing on a Revised Deadline｜空白分词：104 / 107 / 111；共322词",
+      "paragraphs": [
+        "At Monday's planning meeting, Lena realised that the team's weekly report depended on figures that had not yet been checked. Rather than promise a deadline she could not meet, she flagged the issue while there was still time to respond. 'The draft is on track, but the final figures are a blocker,' she explained. She separated completed work from outstanding tasks and described the likely impact on the review. Her manager did not need a detailed account of every email. He needed to know what was missing, who could resolve it, and when the team would have enough information to make a realistic commitment.",
+        "Lena proposed two options instead of simply asking for more time. The team could circulate a clearly labelled draft that afternoon, or wait until the figures had been validated and send the complete report the following morning. 'If we received the confirmed figures by three, we could still finish the review today,' she said. However, she made clear that this was a possibility, not a promise. The manager agreed to a revised deadline and asked Lena to confirm who would take ownership of the missing data. They also set a checkpoint for the afternoon, so that any further delay would become visible before it affected other teams.",
+        "After the meeting, Lena sent a short follow-up email recording the decision, the person responsible for each action, and the next update time. She avoided vague phrases such as 'as soon as possible' when a specific time would be more useful. At the agreed checkpoint, she reported that one figure still required clarification and explained which parts of the report were unaffected. Because the uncertainty had been raised early, the team could adjust its plans without a last-minute scramble. A useful progress update does not make difficulties disappear. It gives colleagues enough reliable information to choose their next steps and prevents a tentative estimate from being mistaken for a firm commitment."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "语法与句型",
+      "items": [
+        {
+          "pattern": "If + 主语 + 动词过去式, 主语 + could / would + 动词原形",
+          "explanation": "第二条件句可用于讨论现在或将来尚不确定、较有距离感的假设。过去式 received 在此不表示过去发生的动作，而是把收到数据作为暂时不能保证的条件；could 表示可能具备完成能力，不是保证一定完成。常见错误：此处条件从句不要写 If we would receive…。若认为条件很可能满足，可用 If we receive …, we can …，但语气与确定性判断不同。",
+          "example": "If we received the confirmed figures by three, we could still finish the review today."
+        },
+        {
+          "pattern": "两天背诵建议：先讲清问题，再明确行动",
+          "explanation": "第1天：背第1段和第2段前两句，按“完成情况→阻碍→影响→两个选项”复述，把 report 换成你的实际任务。第2天：复习关键词，再背第2段剩余内容及第3段，按“假设条件→新截止时间→负责人→检查节点→书面确认”串联；脱稿做一次一分钟进度汇报。",
+          "example": "The draft is on track, but the final figures are a blocker."
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "理解",
+          "question": "1. What prevented Lena from promising the original deadline? 2. What two options did she propose? 3. Why did the team agree on an afternoon checkpoint?"
+        },
+        {
+          "kind": "词语",
+          "question": "Complete: (a) Please ___ any issue early. (b) The draft is on ___. (c) Who will take ___ of checking the data? (d) This is an estimate, not a firm ___."
+        },
+        {
+          "kind": "句式改写",
+          "question": "Combine as a tentative hypothetical situation using If … could …: We receive the confirmed figures by three. We can finish the review today."
+        },
+        {
+          "kind": "实际表达",
+          "question": "Write a 40–60-word progress update. State what is complete, identify a blocker, propose a revised deadline, and name an owner and checkpoint. Make clear what remains uncertain."
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Answers",
+      "title": "答案",
+      "summary": "展开参考答案",
+      "items": [
+        "理解：1. The final figures had not been checked. 2. Circulate a clearly labelled draft that afternoon, or send the complete report the following morning after validation. 3. To make further delays visible before they affected other teams.",
+        "词语：(a) flag; (b) track; (c) ownership; (d) commitment.",
+        "句式改写：If we received the confirmed figures by three, we could still finish the review today.",
+        "实际表达参考：The draft is complete, but two figures still need confirmation. I propose moving the deadline to tomorrow morning. I will take ownership of checking the data and provide an update at three today. This remains a provisional timeline until the figures have been validated."
+      ]
+    }
+  ]
+}
