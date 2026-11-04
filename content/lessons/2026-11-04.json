@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-04",
+  "theme": "生活英语：问清取消预约规定与定金转移条件",
+  "title": "Clarifying a Cancellation Policy Before Changing a Booking",
+  "subtitle": "改约之前，问清取消规定与定金安排｜虚构沙龙情境，非通用商家规定或法律建议",
+  "slug": "clarifying-a-cancellation-policy-before-changing-a-booking",
+  "level": "B2–C1",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "生词和重点词语",
+      "items": [
+        {
+          "term": "secure an appointment",
+          "part": "phr.",
+          "meaning": "确保预约名额",
+          "example": "A small deposit will secure your appointment."
+        },
+        {
+          "term": "a cancellation policy",
+          "part": "phr.",
+          "meaning": "取消预约的规定",
+          "example": "Please read the cancellation policy before paying."
+        },
+        {
+          "term": "reschedule an appointment",
+          "part": "phr.",
+          "meaning": "更改预约时间",
+          "example": "Could I reschedule my appointment for next Wednesday?"
+        },
+        {
+          "term": "give notice",
+          "part": "phr.",
+          "meaning": "提前通知",
+          "example": "How much notice do I need to give?"
+        },
+        {
+          "term": "a booking reference",
+          "part": "phr.",
+          "meaning": "预约编号",
+          "example": "Please include your booking reference in the message."
+        },
+        {
+          "term": "transfer a deposit",
+          "part": "phr.",
+          "meaning": "转移已付定金至另一预约；不等于退款",
+          "example": "Can I transfer my deposit to a later appointment?"
+        },
+        {
+          "term": "an acknowledgement",
+          "part": "n.",
+          "meaning": "确认已收到的通知；不一定表示请求已获批准",
+          "example": "I received an acknowledgement, but the new time is not confirmed yet."
+        },
+        {
+          "term": "carry over",
+          "part": "phr.",
+          "meaning": "转入下一次；结转",
+          "example": "The salon agreed to carry over my deposit."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文",
+      "heading": "Clarifying a Cancellation Policy Before Changing a Booking｜空白分词：103 / 106 / 107；共316词",
+      "paragraphs": [
+        "When Daniel booked a haircut for Friday afternoon, he paid a small deposit to secure the appointment. Two days later, a family commitment meant he might need to change his plans. The confirmation email mentioned a cancellation policy, but it did not explain whether rescheduling counted as cancelling. Instead of assuming the deposit would be refunded, he called the salon to clarify the terms. 'Could you tell me how much notice I need to give if I want to move my appointment?' he asked. He had his booking reference ready and explained that he wanted to understand his options before making any changes.",
+        "The receptionist explained that, under the salon's example policy, customers could transfer their deposit to another appointment if they gave at least twenty-four hours' notice. A later change could result in the deposit being kept. Daniel checked the exact deadline rather than relying on the phrase 'the day before'. 'My appointment is at four on Friday, so would I need to contact you by four on Thursday?' he asked. He also wanted to know whether leaving a voicemail would count as giving notice. The receptionist advised him to use the booking system, which recorded the time of the request and sent an automatic acknowledgement by email.",
+        "Once Daniel had checked his calendar, he requested a slot the following week and received a revised confirmation. He compared it with the original booking to make sure the deposit had been carried over and no extra charge had been added. 'Had I assumed that all changes were free, I might have lost my deposit,' he reflected. The useful lesson was not that every business should have the same rules. It was that asking specific questions early could prevent an avoidable misunderstanding. A clear deadline, an accepted contact method, and written confirmation gave him a reliable record without requiring an argument about what either person had meant."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "语法与句型",
+      "items": [
+        {
+          "pattern": "Had + 主语 + 过去分词, 主语 + might / would / could have + 过去分词",
+          "explanation": "第三条件句的倒装：省略 if，把 had 移到主语前，表示与过去事实相反的假设。Had I assumed… = If I had assumed…。正文中 Daniel 实际上先问清了规则；might have lost 表示假设情况下可能损失定金，并非肯定结果。常见错误：不要同时保留 if 和倒装（If had I assumed）；不要写 might had lost，应写 might have lost。",
+          "example": "Had I assumed that all changes were free, I might have lost my deposit."
+        },
+        {
+          "pattern": "两天背诵计划｜Two-day memorization plan",
+          "explanation": "第1天：背第1段及第2段前两句，按“预约与定金→可能改约→询问规定→转移条件”复述；练习 give notice 和 transfer a deposit。第2天：先脱稿回忆，再背第2段余下内容与第3段，按“精确截止时间→认可的通知方式→新确认→核对费用→反思”串联；最后用自己的预约场景做一分钟电话模拟。",
+          "example": "Had I waited until Friday, I might have missed the deadline."
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "理解",
+          "question": "1. What was unclear in the original email? 2. Under the example policy, what was the deadline for changing the Friday 4 p.m. appointment and transferring the deposit? 3. Why did the receptionist recommend the booking system? 4. What did Daniel check in the revised confirmation?"
+        },
+        {
+          "kind": "词语",
+          "question": "Complete: (a) How much ___ do I need to give? (b) Please include your booking ___. (c) Can I ___ my deposit to another appointment? (d) An automatic ___ confirms receipt, not necessarily approval."
+        },
+        {
+          "kind": "句式改写",
+          "question": "Rewrite without if: If I had assumed that all changes were free, I might have lost my deposit."
+        },
+        {
+          "kind": "实际表达",
+          "question": "Write a 40–60-word message asking to change an appointment. Give the original time, ask about the notice deadline and deposit transfer, and request written confirmation. Do not assume that your request has already been approved."
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Answers",
+      "title": "答案",
+      "summary": "展开参考答案",
+      "items": [
+        "理解：1. Whether rescheduling counted as cancelling. 2. Thursday at 4 p.m., at least twenty-four hours before the appointment. 3. It recorded the request time and sent an automatic email acknowledgement. 4. That the deposit had been carried over and no extra charge had been added.",
+        "词语：(a) notice; (b) reference; (c) transfer; (d) acknowledgement.",
+        "句式改写：Had I assumed that all changes were free, I might have lost my deposit.",
+        "实际表达参考：I have an appointment at four this Friday, but I may need to move it to next week. Could you confirm the deadline for giving notice and whether I can transfer my deposit? Please let me know which slots are available and send written confirmation if the change is approved."
+      ]
+    }
+  ]
+}
