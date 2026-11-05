@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-05",
+  "theme": "生活英语：核对订阅自动续费并有理有据地申请退款",
+  "title": "Questioning an Unexpected Subscription Charge",
+  "subtitle": "遇到意外订阅扣费：讲清异议，确认退款与后续安排｜虚构情境，退款取决于具体条款与适用规定",
+  "slug": "questioning-an-unexpected-subscription-charge",
+  "level": "C1–C2",
+  "duration": "约 10 分钟",
+  "sections": [
+    {
+      "type": "vocabulary",
+      "label": "Vocabulary",
+      "title": "日常高频词汇与用法辨析",
+      "items": [
+        {
+          "term": "an unfamiliar charge",
+          "part": "expression",
+          "meaning": "a payment you do not recognise — 一笔不认识的扣款。charge 在账单中指收费，不一定是欺诈；先用 unfamiliar 比直接说 fraudulent 更审慎。",
+          "example": "There is an unfamiliar charge on my statement."
+        },
+        {
+          "term": "roll over into",
+          "part": "expression",
+          "meaning": "continue automatically as a new period or arrangement — 自动延续或转为另一方案。常见于订阅、合约；roll over into a monthly plan 强调转成月付。",
+          "example": "Does the trial roll over into a paid subscription?"
+        },
+        {
+          "term": "pull up",
+          "part": "expression",
+          "meaning": "find and display information on a screen — 调出资料，常用于客服和办公口语；pull up an email / account / receipt。",
+          "example": "Let me pull up the original confirmation email."
+        },
+        {
+          "term": "the small print",
+          "part": "expression",
+          "meaning": "the detailed conditions of an offer or agreement — 细则、条款；美式英语也常说 the fine print。细则不一定故意隐藏，但可能不醒目。",
+          "example": "The small print mentions an automatic renewal."
+        },
+        {
+          "term": "walk someone through",
+          "part": "expression",
+          "meaning": "explain a process step by step — 逐步解释；walk me through 后直接接流程或内容，不加 about。",
+          "example": "Could you walk me through how this charge was calculated?"
+        },
+        {
+          "term": "a recurring payment",
+          "part": "expression",
+          "meaning": "a payment made repeatedly at regular intervals — 周期性付款；recurring 不等于每天，也不表示永久无法取消。",
+          "example": "I would like to stop the recurring payment."
+        },
+        {
+          "term": "even so",
+          "part": "expression",
+          "meaning": "despite what has just been said — 即便如此；先认可事实，再保留不同判断，比直接否定对方更有分寸。",
+          "example": "I understand the rule. Even so, the email was misleading."
+        },
+        {
+          "term": "a goodwill gesture",
+          "part": "expression",
+          "meaning": "something offered to help maintain a good relationship — 出于善意或维护客户关系的举措，不等同于承认法律责任。常用 as a goodwill gesture。",
+          "example": "Would you consider a refund as a goodwill gesture?"
+        },
+        {
+          "term": "push back",
+          "part": "expression",
+          "meaning": "express disagreement or resistance — 提出异议；push back on an offer。不同于 push a meeting back（推迟会议），语境决定含义。",
+          "example": "I pushed back on the offer of account credit."
+        },
+        {
+          "term": "the original payment method",
+          "part": "expression",
+          "meaning": "the same means used to make the purchase — 原支付方式；退款退回原卡与账户余额 account credit 不同。",
+          "example": "Please refund the amount to the original payment method."
+        },
+        {
+          "term": "take effect",
+          "part": "expression",
+          "meaning": "start to apply or produce a result — 生效；注意 effect 是名词，不写 take affect。常接 immediately / on a date。",
+          "example": "When will the cancellation take effect?"
+        },
+        {
+          "term": "follow up on",
+          "part": "expression",
+          "meaning": "take further action to check progress — 跟进某事；follow up on a request，follow up with a person。名词或定语用 follow-up。",
+          "example": "I am following up on the refund request I submitted on Monday."
+        }
+      ]
+    },
+    {
+      "type": "reading",
+      "label": "Reading",
+      "title": "英语短文",
+      "heading": "Questioning an Unexpected Subscription Charge｜空白分词：104 / 107 / 111；共322词",
+      "paragraphs": [
+        "When Maya noticed an unfamiliar charge on her bank statement, her first instinct was to assume that the company had made a mistake. A closer look revealed that a discounted subscription had rolled over into a monthly plan. What bothered her was not merely the amount, but the gap between what she remembered agreeing to and what the account now showed. She pulled up the original offer, checked the small print, and took screenshots before contacting support. Rather than accuse anyone of hiding the terms, she asked the adviser to walk her through the renewal and explain where the recurring payment had been disclosed.",
+        "The adviser pointed out that renewal information had appeared beneath the introductory price. Maya acknowledged this without conceding that the presentation had been clear. 'I appreciate that the terms mention renewal; even so, the headline price gave me a different impression,' she said. She asked whether the charge could be reversed as a goodwill gesture and whether turning off renewal would end her access immediately. The adviser offered account credit, but Maya politely pushed back: credit would leave her paying for a service she no longer intended to use. What she wanted was a refund to the original payment method, not a balance tied to another purchase.",
+        "Before wrapping up the conversation, Maya asked for written confirmation of what had actually been agreed. The adviser could submit a refund request, but could not guarantee approval; cancelling renewal, by contrast, took effect straight away. Maya repeated that distinction to check she had understood, then saved the case number and the expected response date. Had she treated a submitted request as a settled outcome, she might have stopped following up too soon. Her approach was firm without being confrontational: acknowledge the explanation, question the implication, and ask for a concrete next step. The point was not to win an argument, but to leave with fewer assumptions and a usable record."
+      ]
+    },
+    {
+      "type": "grammar",
+      "label": "Grammar",
+      "title": "语法、语气与两天背诵",
+      "items": [
+        {
+          "pattern": "What + 从句 + be + 焦点信息（what-分裂句 / pseudo-cleft）",
+          "explanation": "把双方争议的焦点放在句尾，既澄清诉求，也纠正对方可能的误解。What she wanted 在整体句子中是名词性主语，表示“她想要的东西”，不是疑问句；从句用陈述语序。错误：What did she want was…。正文的 not merely … but … 和 not … but … 进一步区分金额与信息透明度、退款与账户余额。口语改写：What I need is written confirmation, not another verbal assurance.",
+          "example": "What she wanted was a refund to the original payment method, not a balance tied to another purchase."
+        },
+        {
+          "pattern": "让步不等于同意：I appreciate that …; even so, …",
+          "explanation": "I appreciate that 表示理解或承认某一点，不必表示感谢，也不代表接受其推论。先承认条款提到续费，再质疑展示是否清晰，这是 C1–C2 的语用重点。另一个正文结构 Had she treated … = If she had treated …，用于反事实推理；might have stopped 仅表示可能后果。",
+          "example": "I appreciate that the terms mention renewal; even so, the headline price gave me a different impression."
+        },
+        {
+          "pattern": "Two-day memorization plan｜两天背诵建议",
+          "explanation": "第1天：背第1段及第2段前两句，按“发现扣款→查记录→要求解释→认可事实但保留异议”复述，练习 pull up、walk me through、even so。第2天：背余下内容，按“明确退款方式→区分申请与批准→确认生效→保存编号并跟进”串联。最后做一分钟客服角色扮演，用 What I need is … 澄清诉求，再用自己的订阅场景替换细节。",
+          "example": "What I need is confirmation that renewal is off, even if the refund is still under review."
+        }
+      ]
+    },
+    {
+      "type": "practice",
+      "label": "Practice",
+      "title": "快速练习",
+      "items": [
+        {
+          "kind": "理解与推断",
+          "question": "1. Why did Maya check the original offer before contacting support? 2. What did she acknowledge, and what did she still dispute? 3. Why was account credit unsuitable? 4. Which action was confirmed, and which outcome remained uncertain?"
+        },
+        {
+          "kind": "词语",
+          "question": "Fill in: (a) Let me ___ up the email. (b) Could you walk me ___ the charges? (c) When does cancellation take ___? (d) I will follow up ___ the request. Explain the difference between push back on an offer and push a meeting back."
+        },
+        {
+          "kind": "句式改写",
+          "question": "Rewrite with What … is …: I need a refund, not account credit. Then combine politely using I appreciate that …; even so, …: The terms mention renewal. The headline price gave me a different impression."
+        },
+        {
+          "kind": "实际表达",
+          "question": "Write 40–60 words to customer support: identify an unexpected renewal charge, acknowledge the explanation without abandoning your concern, request a refund to the original payment method, and ask for written confirmation. Do not imply that a submitted request has already been approved."
+        }
+      ]
+    },
+    {
+      "type": "answers",
+      "label": "Answers",
+      "title": "参考答案",
+      "summary": "展开参考答案",
+      "items": [
+        "理解：1. To check what had been offered and preserve evidence before making an accusation. 2. She acknowledged that the terms mentioned renewal, but disputed whether the presentation was clear. 3. It would tie her money to a service or future purchase she did not want. 4. Renewal was cancelled immediately; the refund request could be submitted, but approval was not guaranteed.",
+        "词语：(a) pull; (b) through; (c) effect; (d) on. Push back on an offer = 对提议提出异议；push a meeting back = 把会议推迟。",
+        "改写：What I need is a refund, not account credit. I appreciate that the terms mention renewal; even so, the headline price gave me a different impression.",
+        "实际表达参考：I noticed an unexpected renewal charge on my account. I appreciate that renewal appears in the terms; even so, the offer gave me a different impression. Could you consider a refund to my original payment method? Please confirm in writing whether renewal is cancelled and when I can expect a decision."
+      ]
+    }
+  ]
+}
